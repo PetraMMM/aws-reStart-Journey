@@ -29,6 +29,8 @@ Inbound Rule: Allowed HTTP access (Port 80) from any source (0.0.0.0/0).
 
 Verification: This enabled the server to serve live content to the public internet.
 
+<img width="229" height="63" alt="image" src="https://github.com/user-attachments/assets/48b82efb-01d7-483c-be97-8990f517dc08" />
+
 3. Monitoring & Performance Checks
 
 I utilized the AWS Management Console to monitor the instance’s health. By observing status checks and system metrics, I ensured the virtual hardware and the software layer were performing optimally without errors.
@@ -88,7 +90,7 @@ This lab was completed as part of my continuous learning journey in AWS Cloud Ar
 
 
 
-<img width="229" height="63" alt="image" src="https://github.com/user-attachments/assets/48b82efb-01d7-483c-be97-8990f517dc08" />
+
 
 
 
