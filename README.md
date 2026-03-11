@@ -120,10 +120,10 @@ I am a Cloud Associate in training through the **AWS re/Start** program. This 50
 
 ##  Connect with me
 <div align="left">
-  <a href="YOUR_LINKEDIN_URL">
+  <a href="[YOUR_LINKEDIN_URL](https://www.linkedin.com/in/petra-matejkova-187945259/)">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="mailto:YOUR_EMAIL@EXAMPLE.COM">
+  <a href="mailto:petaveta@yahoo.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="YOUR_PORTFOLIO_LINK">
