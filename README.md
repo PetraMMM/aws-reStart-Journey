@@ -130,11 +130,3 @@ I am a Cloud Associate in training through the **AWS re/Start** program. This 50
     <img src="https://img.shields.io/badge/Portfolio-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="Portfolio">
   </a>
 </div>
-Pro-Tips for this README:
-The "Active Candidate" Badge: I included a "Status" badge. Once you finish the program, change it from "Active" to "Certified Graduate."
-
-The Lab Log: Update the "Key Project / Lab" column with the actual names of the labs you found most challenging or rewarding.
-
-Visuals: If you have any screenshots of your CloudWatch Dashboards or VPC diagrams, you can add an <img> tag inside the <details> sections to really "wow" the recruiter.
-
-Would you like me to help you write a specific description for one of your "Week 9-12" advanced labs?
