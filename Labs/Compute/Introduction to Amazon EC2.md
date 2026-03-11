@@ -43,6 +43,8 @@ Instance Transformation: I stopped the instance to change its Instance Type, inc
 
 Storage Modification: I updated the Elastic Block Store (EBS) volume to increase total storage capacity.
 
+<img width="440" height="231" alt="image" src="https://github.com/user-attachments/assets/ca79fb08-d9f2-43bc-b87b-931ed74047c5" />
+
 Takeaway: This proved how easily resources can be adjusted based on real-time traffic demands without migrating to new hardware.
 
 5. Lifecycle Management & Cleanup
@@ -51,24 +53,16 @@ I concluded the lab by testing the Termination Protection I enabled earlier. Aft
 
 Summary of Skills Learned
 
-Skill Category
-
-Tools & Concepts
-
-Cloud Infrastructure
-
+Cloud Infrastructure :
 AWS EC2, AMI Selection, Scaling
 
-Security
-
+Security:
 Security Groups, Key Pairs, Termination Protection
 
-Storage
-
+Storage:
 Amazon EBS (Elastic Block Store)
 
-Ops & Management
-
+Ops & Management:
 Instance Lifecycle, Resource Monitoring
 
 This lab was completed as part of my continuous learning journey in AWS Cloud Architecture.
@@ -95,5 +89,5 @@ This lab was completed as part of my continuous learning journey in AWS Cloud Ar
 
 
 
-<img width="440" height="231" alt="image" src="https://github.com/user-attachments/assets/ca79fb08-d9f2-43bc-b87b-931ed74047c5" />
+
 
