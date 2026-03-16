@@ -1,4 +1,4 @@
-Lab: Creating Amazon EC2 Instances
+Creating Amazon EC2 Instances
 
 This repository contains the documentation and architectural overview for the AWS Lab: Creating Amazon EC2 Instances. 
 
@@ -65,17 +65,10 @@ Verified the instance was "Running" in the console and confirmed the web server 
 <img width="376" height="193" alt="image" src="https://github.com/user-attachments/assets/01e401a2-561f-4d95-b3b8-e4b74df2adad" />
 
 
-5. Results & Findings
+<img width="382" height="160" alt="image" src="https://github.com/user-attachments/assets/36259e0b-4e80-4afb-939d-19bbdf2649b2" />
 
-Seamless Integration: The Bastion Host successfully inherited IAM permissions to execute CLI commands.
-
-Efficiency: CLI provisioning proved faster for repeatable infrastructure tasks compared to the Console.
 
 Connectivity: Verified that the Web Server was reachable, confirming correct Security Group application.
 
-
-7. Conclusion
-
-This lab successfully illustrated the hybrid workflow of manual setup and CLI-driven automation. By using a bastion host, we maintained a high security posture while demonstrating the power of the AWS CLI for scaling infrastructure.
 
 Developed as part of AWS Technical Training.
