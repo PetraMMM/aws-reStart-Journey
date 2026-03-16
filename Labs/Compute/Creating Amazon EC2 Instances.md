@@ -6,7 +6,7 @@ This repository contains the documentation and architectural overview for the AW
 
 This lab demonstrates the different methods available for provisioning compute resources on AWS. The project involves building a secure two-tier architecture where a Bastion Host is launched manually to act as a gateway, which is then used to programmatically launch a Web Server using the AWS Command Line Interface (AWS CLI).
 
-Architecture Diagram
+
 <img width="245" height="180" alt="image" src="https://github.com/user-attachments/assets/3105c6f9-7717-4c59-b6fe-5a632ec34587" />
 
 
