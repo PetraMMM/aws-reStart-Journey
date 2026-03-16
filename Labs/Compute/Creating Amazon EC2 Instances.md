@@ -19,6 +19,9 @@ Launch EC2 via Console: Provision a Linux instance using the AWS Management Cons
 
 Secure Connectivity: Use EC2 Instance Connect for browser-based SSH access.
 
+
+
+
 Automated Provisioning: Use the AWS CLI from within an active instance to launch a secondary web server instance.
 
 3. Environment & Tools
@@ -45,26 +48,22 @@ Security Group: Allowed SSH (Port 22)
 
 IAM Role: Attached a role with permissions to describe and run EC2 instances.
 
+<img width="524" height="274" alt="image" src="https://github.com/user-attachments/assets/f9cf4ab2-30ce-4e06-add3-9f43cf4582d3" />
+
 Task 2: Logging in to the Bastion Host
 
-Used EC2 Instance Connect to establish a secure terminal session directly from the browser, avoiding the need for local .pem keys.
+Used EC2 Instance Connect to establish a secure terminal session directly from the browser.
 
 Task 3: Launching the Web Server via CLI
 
-Once inside the Bastion Host, the environment was verified, and the following CLI command structure was used to launch the second instance:
-
-aws ec2 run-instances \
-    --image-id ami-xxxxxxxxxxxxxxxxx \
-    --count 1 \
-    --instance-type t2.micro \
-    --key-name MyKeyPair \
-    --security-group-ids sg-xxxxxxxxxxxxxxxxx \
-    --user-data file://user-data.sh
-
+<img width="778" height="223" alt="image" src="https://github.com/user-attachments/assets/0e4532ef-ce3b-424e-b929-25c1e2ce5349" />
 
 Task 4: Testing the Web Server
 
 Verified the instance was "Running" in the console and confirmed the web server was serving traffic by accessing its public IP.
+
+<img width="376" height="193" alt="image" src="https://github.com/user-attachments/assets/01e401a2-561f-4d95-b3b8-e4b74df2adad" />
+
 
 5. Results & Findings
 
@@ -74,15 +73,6 @@ Efficiency: CLI provisioning proved faster for repeatable infrastructure tasks c
 
 Connectivity: Verified that the Web Server was reachable, confirming correct Security Group application.
 
-6. Challenges & Solutions
-
-Issue: AWS CLI permissions error.
-
-Solution: Verified the IAM Instance Profile was correctly attached to the Bastion Host.
-
-Issue: Port 80 (HTTP) was closed.
-
-Solution: Updated the Security Group rules via the console to allow inbound web traffic.
 
 7. Conclusion
 
