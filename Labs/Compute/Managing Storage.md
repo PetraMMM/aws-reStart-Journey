@@ -25,6 +25,9 @@
 *   **Built-in Data Protection**  
     I enabled **S3 Versioning**, which allowed me to easily retrieve files that were accidentally deleted or overwritten, providing an extra layer of "undo" for the project.
 
+<img width="800" height="190" alt="image" src="https://github.com/user-attachments/assets/9f7d563f-31f3-456d-a660-f58166999268" />
+
+
 ---
 
 ### My Environment Setup
