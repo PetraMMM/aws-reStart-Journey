@@ -9,17 +9,21 @@
 
 ###  What I Accomplished
 
-*   **Provisioned Block Storage**  
+*   **Provisioned  Amazon Elastic Block Store (EBS)**  
     I started by creating a custom **Amazon EBS volume**. I learned how to choose the right size and type to match the performance needs of a cloud application.
 
-*   **Connected Storage to Compute**  
+*   **Connected Storage to EC2**  
     I successfully **attached and mounted** the EBS volume to a running EC2 instance. This involved not just the AWS Console/CLI steps, but also working within the Linux terminal to create a filesystem so the instance could actually use the space.
 
 *   **Data Protection & Backups**  
     I took a **snapshot** of my volume. This taught me how to create point-in-time backups that are stored durably in S3, ensuring that my data is safe even if the original volume is deleted.
 
+    <img width="800" height="190" alt="image" src="https://github.com/user-attachments/assets/b90fa55e-c7a3-41ee-9ba4-94ab24c1f35f" />
+
+
 *   **Rapid Recovery & Scaling**  
     I proved my backup worked by **creating a brand new EBS volume from my snapshot**. This is a key skill for migrating data between zones or recovering from a system failure.
+<img width="800" height="280" alt="image" src="https://github.com/user-attachments/assets/9771b068-9782-4996-89d6-c4cd4a3b6f4f" />
 
 ---
 
