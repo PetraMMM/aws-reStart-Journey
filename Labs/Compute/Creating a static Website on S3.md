@@ -24,8 +24,10 @@
 *   **Launched the Site via CLI**  
     Instead of manual uploads, I used the **AWS CLI** from an EC2 instance to push the website files directly to the bucket, turning it into a live static host.
     
+    <img width="395" height="307" alt="image" src="https://github.com/user-attachments/assets/fbd3f867-ed5e-4496-a9e9-49522735d03b" />
+
 
 ---
 
 ### Key Takeaway
-This project allowed me to master **cloud automation** and showed me how to manage web assets efficiently using professional developer tools.
+This project showed me how to manage web assets efficiently using professional developer tools.
