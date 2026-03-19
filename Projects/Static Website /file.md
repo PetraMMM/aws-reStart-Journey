@@ -12,7 +12,7 @@ This project was a collaborative group effort.
 
 The website consists of 5 main pages, all accessible via the global navigation menu:
 
-* **Home:** (Visualized in the screenshot below) Introduces the brand, features a curated hero image/banner, a newsletter signup section, and highlights "Our Monthly Arrivals."
+* **Home:** (Visualized in the header) Introduces the brand, features a curated image/banner, a newsletter signup section, and highlights "Our Monthly Arrivals."
 * **Shop:** The main catalog page showcasing the full range of available teas.
 * **About:** The story and mission behind The Quiet Kettle.
 * **Contact:** How to get in touch with us.
@@ -26,13 +26,8 @@ The website consists of 5 main pages, all accessible via the global navigation m
 
 ## Deployment Screenshot
 
-This is a screenshot of the deployed Home page, viewed from a live browser environment.
+![The Quiet Kettle Screenshots](https://raw.githubusercontent.com/PetraMMM/Projects/StaticWebsite/Screenshots/file.md)
 
-![The Quiet Kettle Home Page Screenshot](https://raw.githubusercontent.com/PetraMMM/Projects/StaticWebsite/Screenshots/file.md)
-
-*Figure 1: The deployed Home page, featuring the brand header, hero banner, and monthly arrival categories.*
-
-*(**Note:** Replace `YourGitHubUsername` and the image path with your actual repository information to make this link work inside GitHub.)*
 
 ## Challenges & Solutions
 
@@ -40,7 +35,7 @@ A significant challenge we faced during the final deployment was a missing produ
 
 **Solution:**
 
-We successfully resolved this by locating the correct image asset and uploading it separately and directly into the designated folder structure within the Amazon S3 bucket. This verified that the issue was not with the HTML code's reference path, but strictly a deployment asset transfer error. The website now displays correctly on all pages.
+We successfully resolved this by locating the correct image asset and uploading it separately and directly into the designated folder structure within the Amazon S3 bucket. This verified that the issue was not with the HTML code's reference path, but strictly a deployment asset transfer error. The website now displays correctly all pages.
 
 ## Group Contributors
 
