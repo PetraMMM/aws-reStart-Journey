@@ -28,7 +28,8 @@ The website consists of 5 main pages, all accessible via the global navigation m
 
 This is a screenshot of the deployed Home page, viewed from a live browser environment.
 
-![The Quiet Kettle Home Page Screenshot](https://raw.githubusercontent.com/YourGitHubUsername/the-quiet-kettle/main/images/project_screenshot.png)
+![The Quiet Kettle Home Page Screenshot](https://raw.githubusercontent.com/PetraMMM/Projects/StaticWebsite/Screenshots/file.md)
+
 *Figure 1: The deployed Home page, featuring the brand header, hero banner, and monthly arrival categories.*
 
 *(**Note:** Replace `YourGitHubUsername` and the image path with your actual repository information to make this link work inside GitHub.)*
