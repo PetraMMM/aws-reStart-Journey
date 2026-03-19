@@ -22,7 +22,8 @@ The website consists of 5 main pages, all accessible via the global navigation m
 ## Technology Stack
 
 * **Development:** All HTML and CSS code was authored using **Visual Studio Code**.
-* **Deployment:** The project is a purely static website. It is **hosted as a static website on an Amazon S3** (Simple Storage Service) bucket.
+![The Quiet Kettle Screenshots](https://github.com/PetraMMM/aws-reStart-Journey/blob/main/Projects/Static%20Website%20/Screenshots/FinalWebPages.md)
+* **Deployment:** The project is a purely static website. It is **hosted as a static website on an Amazon S3** (Simple Storage Service) bucket. The Bucket was created in the AWS Management Console.  The Bucket´s name was "the-quiet-kettle", we have and we have enabled public access and public policies, uploaded files  and we hosted the web page at http://the-quiet-kettle.s3-website-us-west-2.amazonaws.com/login.html. ![Screen shots of the bucket]
 * **Assets:** Original product photography of the teas and other media were integrated directly into the HTML structure.
 
 ## Deployment Screenshot
