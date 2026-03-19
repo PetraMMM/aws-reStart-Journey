@@ -1,6 +1,7 @@
 
 <img width="1567" height="749" alt="image" src="https://github.com/user-attachments/assets/4563563d-8963-4d10-a4cf-2e25e9bea212" />
-# The Quiet Kettle Static Website Project
+
+## The Quiet Kettle Static Website Project
 
 ## Project Overview
 
@@ -26,7 +27,7 @@ The website consists of 5 main pages, all accessible via the global navigation m
 
 ## Deployment Screenshot
 
-![The Quiet Kettle Screenshots](https://github.com/PetraMMM/aws-reStart-Journey/blob/main/Projects/Static%20Website%20/Screenshots/file.md)
+![The Quiet Kettle Screenshots](https://github.com/PetraMMM/aws-reStart-Journey/blob/main/Projects/Static%20Website%20/Screenshots/FinalWebPages.md)
 
 
 
