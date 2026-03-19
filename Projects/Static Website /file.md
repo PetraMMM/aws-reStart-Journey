@@ -26,7 +26,8 @@ The website consists of 5 main pages, all accessible via the global navigation m
 
 ## Deployment Screenshot
 
-![The Quiet Kettle Screenshots](https://raw.githubusercontent.com/PetraMMM/Projects/StaticWebsite/Screenshots/file.md)
+![The Quiet Kettle Screenshots](https://github.com/PetraMMM/aws-reStart-Journey/blob/main/Projects/Static%20Website%20/Screenshots/file.md)
+
 
 
 ## Challenges & Solutions
