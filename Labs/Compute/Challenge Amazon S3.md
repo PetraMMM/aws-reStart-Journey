@@ -12,7 +12,7 @@ By the end of this challenge, I had achieved the following milestones:
 * **S3 Bucket Creation:** I successfully created a globally unique S3 bucket (demo-pm3) to host static content.
 * **Object Upload:** I uploaded a picture into the newly created bucket.
 * **Public Access Configuration:** I configured the bucket permissions and object policies to allow the object to be accessed publicly via a standard web browser.
-* **CLI Verification:** I listed the contents of the S3 bucket using the AWS CLI, confirming the successful upload and verifying the setup programmatically.
+* **CLI Verification:** I listed the contents of the S3 bucket using the AWS CLI, confirming the successful upload.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/111562dd-64e5-4968-aee3-a94162de4f4b" />
 
@@ -23,11 +23,12 @@ By the end of this challenge, I had achieved the following milestones:
 
 My first step was to log into the AWS Management Console and navigate to the S3 service. I created a new bucket with a unique name, adhering to AWS naming conventions. During the creation process, I ensured that "Block All Public Access" was *not* fully enabled, which was a necessary prerequisite for the public accessibility testing later in the lab.
 
-![AWS Console showing bucket creation in progress](https://via.placeholder.com/600x400.png?text=Placeholder:S3+Bucket+Creation+Console)
+<img width="520" height="238" alt="image" src="https://github.com/user-attachments/assets/ae7f59e2-7659-434e-86c6-2cae147aa350" />
+
 
 ### 2. Uploading the Object
 
-Once the bucket was active, I navigated into it and initiated an upload. I chose a simple file (e.g., `sample_web_page.html`) to serve as our target object. The upload process was quick, and the file was visible in the bucket objects list.
+Once the bucket was active, I navigated into it and initiated an upload. I chose a simple file ( `sample_web_page.html`) to serve as our target object. The upload process was quick, and the file was visible in the bucket objects list.
 
 ### 3. Enabling Public Access
 
