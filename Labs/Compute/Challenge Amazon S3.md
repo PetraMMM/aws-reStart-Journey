@@ -28,14 +28,17 @@ My first step was to log into the AWS Management Console and navigate to the S3 
 
 ### 2. Uploading the Object
 
-Once the bucket was active, I navigated into it and initiated an upload. I chose a simple file ( `sample_web_page.html`) to serve as our target object. The upload process was quick, and the file was visible in the bucket objects list.
+Once the bucket was active, I navigated into it and initiated an upload. I chose a simple picture ( `sklenena vitrina z obyvaku.jpg`) to serve as our target object. The upload process was quick, and the file was visible in the bucket objects list.
 
 ### 3. Enabling Public Access
 
 This was the core challenge of the lab. To make the object publicly viewable through a browser, I had to configure two layers of security permissions:
 
 1.  **Bucket-level Permissions:** I updated the bucket's "Block public access" settings to allow specific public permissions.
-2.  **Object-level Access Control (ACL):** I directly modified the Access Control List (ACL) of the `sample_web_page.html` object, explicitly granting "Read" permissions to everyone.
+2.  **Object-level Access Control (ACL):** I directly modified the Access Control List (ACL) of the `sklenena vitrina z obyvaku.jpg` object, explicitly granting "Read" permissions to everyone.
+
+<img width="500" height="248" alt="image" src="https://github.com/user-attachments/assets/6a08dee7-a618-4b67-9c58-9f8c802beb4c" />
+
 
 This configuration is critical for static website hosting scenarios.
 
