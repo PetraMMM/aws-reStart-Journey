@@ -25,6 +25,7 @@ I have accomplished the following technical objectives:
 1.  **Secure Upload:** The media company (signed in as `mediacouser`) uploads or modifies product images in the S3 bucket via the AWS Console or CLI.
 2.  **Automated Trigger:** When Amazon S3 detects this change, it instantly publishes a notification to a dedicated **Amazon SNS (Simple Notification Service)** topic.
 3.  **Admin Alert:** The café administrator, subscribed to the SNS topic, immediately receives an email detail describing the changes made, ensuring visibility and accountability.
+<img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/0599aebf-992c-4681-aac6-ad8ebd7c2efc" />
 
 <img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/1e7b6740-a849-4988-b8e3-c4869aa6882c" />
 
