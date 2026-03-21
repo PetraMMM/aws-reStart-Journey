@@ -3,35 +3,21 @@
 
 ## Project Overview
 
-In this lab, I successfully created and configured an **Amazon Simple Storage Service (Amazon S3)** solution designed to facilitate secure file sharing and automated change notifications. I established a process for a media company (acting as an external user, `mediacouser`) to upload product images for a café. The core achievement was integrating security and automation: I implemented fine-grained access control and an automated email notification system to immediately alert administrators whenever the bucket contents are modified.
+In this lab, I successfully designed and deployed a secure file-sharing and notification system using **Amazon Simple Storage Service (Amazon S3)**. The solution enables a media company (an external user, `mediacouser`) to upload and update product images for a café, while ensuring automated security alerts. The core focus was on implementing fine-grained access control and an automated email notification pipeline to immediately alert administrators of any bucket modifications.
 
 ## Objectives Accomplished
 
 I have accomplished the following technical objectives:
 
-* **S3 API Mastery:** I utilized the **s3api** and **s3** AWS CLI (Command Line Interface) commands to create and fully configure the target S3 bucket programmatically.
-* **Security Verification:** I validated the **IAM permissions** for the external `mediacouser` to ensure they had appropriate 'write' permissions to modify the bucket contents.
-* **Event Automation:** I successfully configured **Amazon S3 Event Notifications** to automatically trigger an email alert when the bucket is modified.
+* **S3 CLI Administration:** I utilized the **s3api** and **s3** AWS CLI commands to programmatically create and fully configure the S3 bucket.
+* **Permissions Validation:** I validated **IAM permissions** for the external `mediacouser`, ensuring they possessed the appropriate, minimum necessary 'write' privileges to manage the bucket contents securely.
+* **Notification Automation:** I successfully implemented **Amazon S3 Event Notifications**, configuring the bucket to automatically trigger an email alert when contents are added, modified, or removed.
 
-## Project Architecture and Workflow
+## Solution Flow
 
-The following diagram illustrates the solution's component architecture and the data flow I implemented:
+I implemented an automated pipeline that connects multiple AWS services:
+1.  **Secure Upload:** The media company (signed in as `mediacouser`) uploads or modifies product images in the S3 bucket via the AWS Console or CLI.
+2.  **Automated Trigger:** When Amazon S3 detects this change, it instantly publishes a notification to a dedicated **Amazon SNS (Simple Notification Service)** topic.
+3.  **Admin Alert:** The café administrator, subscribed to the SNS topic, immediately receives an email detail describing the changes made, ensuring visibility and accountability.
 
-![Amazon S3 File Sharing Solution Architecture and Flow](https://raw.githubusercontent.com/your-username/your-repository/main/architecture-diagram.png)
-
-### Deployed Workflow:
-
-1.  **Media Upload:** An external user at the media company signs in to the AWS Management Console (or uses the AWS CLI) as `mediacouser`.
-2.  **S3 Action:** Based on pre-verified IAM permissions, the user uploads new product pictures or updates existing ones in the S3 bucket.
-3.  **Automated Trigger:** When Amazon S3 detects this change, it immediately publishes an event notification to a dedicated **Amazon SNS (Simple Notification Service)** topic named `s3NotificationTopic`.
-4.  **Admin Alert:** The café administrator, who is subscribed to the `s3NotificationTopic`, receives an automated email message containing details about the modifications made to the bucket.
-
-## Implementation Details
-
-### Step 1: Programmatic S3 Bucket Management
-
-I used the **AWS CLI** to create and configure the S3 bucket. This included using advanced `s3api` commands to refine bucket settings that are not available in standard `s3` commands.
-
-```bash
-# Example: Creating the bucket (ensure the name is globally unique)
-aws s3api create-bucket --bucket cafe-media-assets --region us-west-2
+**Learning Outcomes:** This project provided practical experience in leveraging the **AWS CLI** for S3 management, understanding **IAM security** integration, and automating cloud workflows by linking **S3 and SNS**.
