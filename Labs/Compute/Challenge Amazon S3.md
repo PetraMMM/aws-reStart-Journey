@@ -46,7 +46,7 @@ This configuration is critical for static website hosting scenarios.
 
 #### Web Browser Access
 
-To verify the public access, I navigated to the "Properties" tab of the uploaded file in the AWS Console. I copied the unique **Object URL** (e.g., `https://my-unique-bucket-name.s3.amazonaws.com/sample_web_page.html`).
+To verify the public access, I navigated to the "Properties" tab of the uploaded file in the AWS Console. I copied the unique **Object URL** (e.g., `https://demo-pm3.s3.amazonaws.com/sample_web_page.html`).
 
 I then opened a new private (incognito) browser window and pasted the URL. The `sample_web_page.html` content loaded successfully, confirming that the public access configuration was working as intended.
 
@@ -54,5 +54,5 @@ I then opened a new private (incognito) browser window and pasted the URL. The `
 
 The final step was to verify the setup from the command line. Using a terminal configured with AWS CLI access, I executed the following command:
 
-```bash
-aws s3 ls s3://my-unique-bucket-name
+```
+aws s3 ls s3://demo-pm3
