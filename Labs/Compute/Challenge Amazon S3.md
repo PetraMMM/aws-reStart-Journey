@@ -14,7 +14,7 @@ By the end of this challenge, I had achieved the following milestones:
 * **Public Access Configuration:** I configured the bucket permissions and object policies to allow the object to be accessed publicly via a standard web browser.
 * **CLI Verification:** I listed the contents of the S3 bucket using the AWS CLI, confirming the successful upload.
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/111562dd-64e5-4968-aee3-a94162de4f4b" />
+
 
 
 ## Technical Walkthrough
@@ -48,7 +48,7 @@ This configuration is critical for static website hosting scenarios.
 
 To verify the public access, I navigated to the "Properties" tab of the uploaded file in the AWS Console. I copied the unique **Object URL** (e.g., `https://demo-pm3.s3.us-west-2.amazonaws.com/sklenena+vitrina+z+obyvaku.jpg`).
 
-I then opened a new private (incognito) browser window and pasted the URL. The content loaded successfully, confirming that the public access configuration was working as intended.
+I then opened a new browser window and pasted the URL. The content loaded successfully, confirming that the public access configuration was working as intended.
 
 <img width="500" height="180" alt="image" src="https://github.com/user-attachments/assets/241559ec-fdaa-48fd-a831-6636dcf9198b" />
 
@@ -57,5 +57,6 @@ I then opened a new private (incognito) browser window and pasted the URL. The c
 
 The final step was to verify the setup from the command line. Using a terminal configured with AWS CLI access, I executed the following command:
 
-```
-aws s3 ls s3://demo-pm3
+`aws s3 ls s3://demo-pm3`
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/111562dd-64e5-4968-aee3-a94162de4f4b" />
