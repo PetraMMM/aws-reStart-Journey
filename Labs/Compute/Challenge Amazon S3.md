@@ -1,5 +1,5 @@
 
-# AWS Challenge Lab: Amazon S3 Hands-on
+# AWS Challenge Lab: Amazon S3 
 
 ## Project Overview
 
@@ -9,10 +9,13 @@ In this hands-on challenge lab, I successfully created and configured an **Amazo
 
 By the end of this challenge, I had achieved the following milestones:
 
-* **S3 Bucket Creation:** I successfully created a globally unique S3 bucket to host static content.
-* **Object Upload:** I uploaded a specific object (a web asset) into the newly created bucket.
+* **S3 Bucket Creation:** I successfully created a globally unique S3 bucket (demo-pm3) to host static content.
+* **Object Upload:** I uploaded a picture into the newly created bucket.
 * **Public Access Configuration:** I configured the bucket permissions and object policies to allow the object to be accessed publicly via a standard web browser.
 * **CLI Verification:** I listed the contents of the S3 bucket using the AWS CLI, confirming the successful upload and verifying the setup programmatically.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/111562dd-64e5-4968-aee3-a94162de4f4b" />
+
 
 ## Technical Walkthrough
 
