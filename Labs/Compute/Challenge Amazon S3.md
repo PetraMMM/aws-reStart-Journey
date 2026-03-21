@@ -46,9 +46,12 @@ This configuration is critical for static website hosting scenarios.
 
 #### Web Browser Access
 
-To verify the public access, I navigated to the "Properties" tab of the uploaded file in the AWS Console. I copied the unique **Object URL** (e.g., `https://demo-pm3.s3.amazonaws.com/sample_web_page.html`).
+To verify the public access, I navigated to the "Properties" tab of the uploaded file in the AWS Console. I copied the unique **Object URL** (e.g., `https://demo-pm3.s3.us-west-2.amazonaws.com/sklenena+vitrina+z+obyvaku.jpg`).
 
-I then opened a new private (incognito) browser window and pasted the URL. The `sample_web_page.html` content loaded successfully, confirming that the public access configuration was working as intended.
+I then opened a new private (incognito) browser window and pasted the URL. The content loaded successfully, confirming that the public access configuration was working as intended.
+
+<img width="500" height="180" alt="image" src="https://github.com/user-attachments/assets/241559ec-fdaa-48fd-a831-6636dcf9198b" />
+
 
 #### AWS CLI Verification
 
