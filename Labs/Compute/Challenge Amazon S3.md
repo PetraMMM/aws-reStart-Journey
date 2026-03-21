@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-In this hands-on challenge lab, I successfully created and configured an **Amazon Simple Storage Service (Amazon S3)** bucket. I performed routine, essential cloud storage tasks, focusing on object lifecycle management and security access controls. The project culminated in deploying a sample web asset and verifying its availability through both a standard web browser and the AWS Command Line Interface (AWS CLI).
+In this hands-on challenge lab, I successfully created and configured an **Amazon Simple Storage Service (Amazon S3)** bucket. I performed routine, essential cloud storage tasks, focusing on security access controls. The project culminated in deploying a sample web asset and verifying its availability through both a standard web browser and the AWS Command Line Interface (AWS CLI).
 
 ## Objectives Completed
 
