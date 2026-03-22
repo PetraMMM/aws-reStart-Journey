@@ -21,6 +21,9 @@ The following diagram illustrates the architecture of the sales analysis report 
 5.  **Report Formatting & Delivery:** The query results are returned to the main function, which formats the report and publishes the message to an **Amazon SNS (Simple Notification Service)** topic (`salesAnalysisReportTopic`).
 6.  **Email Notification:** The SNS topic delivers the finalized sales report via email to the administrator.
 
+   <img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/a56ea567-f091-420e-9812-37cb0b02dda5" />
+
+
 ## Objectives Accomplished
 
 I successfully completed the following technical objectives during this deployment:
