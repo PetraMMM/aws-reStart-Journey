@@ -51,5 +51,8 @@ Upon upload, the following automated sequence occurred successfully:
 * Lambda published the result to the SNS topic.
 * I received an email within seconds confirming the exact word count for the specific file uploaded.
 
+  <img width="350" height="118" alt="image" src="https://github.com/user-attachments/assets/280aa398-a39a-4d51-9b15-811068f5666f" />
+
+
 ---
 **Learning Outcomes:** This challenge provided practical, hands-on experience in constructing an event-driven serverless architecture, connecting multiple AWS services (S3, Lambda, SNS), and managing IAM permissions for seamless service integration.
