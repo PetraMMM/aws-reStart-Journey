@@ -20,7 +20,7 @@ I achieved all specified objectives for this challenge:
 My first step was to set up the necessary infrastructure:
 * **S3 Bucket:** I created a dedicated S3 bucket to serve as the upload point for the text files.
 
-<img width="1365" height="741" alt="image" src="https://github.com/user-attachments/assets/dfaf51e7-ef59-4b91-a337-a8b8971731ec" />
+<img width="350" height="180" alt="image" src="https://github.com/user-attachments/assets/dfaf51e7-ef59-4b91-a337-a8b8971731ec" />
 
   
 * **SNS Topic:** I established an Amazon SNS topic named `WordCountResultTopic`. I created an email subscription for this topic and successfully confirmed the subscription to ensure receipt of notifications.
