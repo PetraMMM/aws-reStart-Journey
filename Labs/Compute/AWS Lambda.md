@@ -25,12 +25,15 @@ The following diagram illustrates the architecture of the sales analysis report 
 
 I successfully completed the following technical objectives during this deployment:
 
-* **IAM Permissions Management:** I identified and configured the necessary **AWS Identity and Access Management (IAM)** policy permissions required for Lambda functions to securely interact with other AWS resources (CloudWatch, SNS, SSM Parameter Store).
+* **IAM Permissions Management:** I identified and configured the necessary **AWS Identity and Access Management (IAM)** policy permissions required for Lambda functions to securely interact with other AWS resources (CloudWatch, SNS).
 * **Lambda Layers:** I created and implemented a **Lambda layer** to manage an external library dependency, ensuring the data extractor function had the necessary tools to connect to the MySQL database.
 * **Serverless Function Deployment:** I deployed the Python-based Lambda functions for both data extraction and report orchestration.
 * **Scheduled Automation:** I deployed and tested the **CloudWatch Events** trigger, verifying that the scheduled invocation and cross-function calls executed correctly.
 * **Troubleshooting with CloudWatch Logs:** I utilized **Amazon CloudWatch Logs** to monitor execution and troubleshoot any issues encountered during the testing of the Lambda functions.
 
+  <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/dce3d02a-8cc5-4209-af49-70bb424be7dc" />
+
+
 ## Learning Outcomes
 
-This project provided me with practical, hands-on exper
+This project provided me with practical, hands-on experience in building a real-world serverless application. Key takeaways include managing IAM permissions for secure service integration, automating tasks using CloudWatch events, leveraging Lambda layers for dependency management, and using CloudWatch Logs.
