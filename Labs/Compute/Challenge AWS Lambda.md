@@ -25,6 +25,9 @@ My first step was to set up the necessary infrastructure:
   
 * **SNS Topic:** I established an Amazon SNS topic named `WordCountResultTopic`. I created an email subscription for this topic and successfully confirmed the subscription to ensure receipt of notifications.
 
+  <img width="350" height="180" alt="image" src="https://github.com/user-attachments/assets/e700dc81-01b7-4c02-9333-53bd7f866bdc" />
+
+
 ### 2. Lambda Function Development & IAM
 
 I developed the core logic in Python 3 using the AWS Management Console's built-in code editor. The function utilizes the **Boto3 SDK** to interact with S3.
