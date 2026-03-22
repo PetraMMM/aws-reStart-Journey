@@ -18,7 +18,7 @@ I achieved all specified objectives for this challenge:
 ### 1. Resource Provisioning (S3 & SNS)
 
 My first step was to set up the necessary infrastructure:
-* **S3 Bucket:** I created a dedicated S3 bucket to serve as the upload point for the text files.
+* **S3 Bucket:** I created a dedicated S3 bucket (word-count-pm3) to serve as the upload point for the text files.
 
 <img width="350" height="180" alt="image" src="https://github.com/user-attachments/assets/dfaf51e7-ef59-4b91-a337-a8b8971731ec" />
 
@@ -30,19 +30,16 @@ My first step was to set up the necessary infrastructure:
 
 ### 2. Lambda Function Development & IAM
 
-I developed the core logic in Python 3 using the AWS Management Console's built-in code editor. The function utilizes the **Boto3 SDK** to interact with S3.
-
-**Key Coding Logic:**
-1.  **Event Parsing:** Extract the S3 bucket name and the object key (file name) from the incoming S3 event data.
-2.  **S3 Download:** Use the Boto3 S3 client to download the text content from the uploaded file directly into memory.
-3.  **Word Count:** Read the file content and apply standard Python string manipulation (`.split()`) to count the words accurately.
-4.  **SNS Publish:** Utilize the Boto3 SNS client to publish a formatted message to the `WordCountResultTopic`. The message includes the file name and the exact word count.
+I developed the core logic in Python 3 using Gemini.
 
 For permissions, I adhered to the lab constraints and utilized a pre-existing **IAM (Identity and Access Management) role** that provided the necessary standard permissions for Lambda basic execution, Amazon SNS full access, and Amazon S3 full access.
 
 ### 3. S3 Event Trigger Configuration
 
 I navigated back to the S3 bucket properties and configured an **Event Notification**. I specifically created a trigger to invoke my Lambda function for any `ObjectCreated` event, targeting objects with the `.txt` suffix.
+
+<img width="340" height="180" alt="image" src="https://github.com/user-attachments/assets/fe4b4ce2-44a0-4424-8a3b-9d8f8206cec6" />
+
 
 ### 4. End-to-End Testing
 
