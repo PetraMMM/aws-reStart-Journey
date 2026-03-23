@@ -29,8 +29,6 @@ After designing the solution, I transitioned to a live AWS Management Console en
 This project unique utilized **AWS SimuLearn**, which is powered by generative AI. I gained practical experience by having life-like conversations with AI-generated customers to gather requirements and present my design.
 
 * **Generative AI Conversations:** Engaged in iterative dialogues to improve soft skills like communication and problem-solving.
-* **Soft Skills Evaluation:** An AI quiz agent evaluated my responses to these customer conversations.
-* **AI Helper (Dr. Newton):** An AI assistant was available to provide guidance whenever I encountered roadblocks during the design or conversation phase.
 
 ## Final Result
 
