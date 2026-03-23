@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - The Quiet Kettle</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #f8f4f0;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    /* Consistent Header */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #d7c5a8;
+      padding: 20px 40px;
+      height: 80px;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2em;
+      color: #4b3b2f;
+      font-family: 'Georgia', serif;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4b3b2f;
+      font-weight: bold;
+      padding: 5px 10px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #3a2e24;
+    }
+
+    .login-btn {
+      background-color: #4b3b2f;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .login-btn:hover {
+      background-color: #3a2e24;
+    }
+
+    /* Cart icon */
+    .cart {
+      font-size: 1.4em;
+      color: #4b3b2f;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      position: relative;
+    }
+
+    .cart-count {
+      background-color: #4b3b2f;
+      color: white;
+      font-size: 0.7em;
+      padding: 2px 6px;
+      border-radius: 50%;
+      position: absolute;
+      top: -8px;
+      right: -10px;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 40px 30px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .about-image {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #4b3b2f;
+      margin-bottom: 25px;
+      font-family: 'Georgia', serif;
+    }
+
+    p {
+      margin-bottom: 18px;
+      color: #555;
+      font-size: 1.05em;
+      text-align: center;
+    }
+
+    .highlight {
+      font-style: italic;
+      color: #4b3b2f;
+    }
+
+    footer {
+      background-color: #d7c5a8;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    footer p {
+      color: #4b3b2f;
+    }
+
+    /* Team photo style */
+    .about-photo {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .about-photo img {
+      max-width: 100%;
+      width: 400px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Quiet Kettle</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" class="login-btn">Login</a>
+      <div class="cart">
+        <i class="fas fa-bag-shopping"></i>
+        <span class="cart-count">0</span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <img src="images/tea-art.jpg" alt="Tea Art" class="about-image">
+
+    <h2>Our Story</h2>
+
+    <p>
+      The Quiet Kettle was born from a shared pause — a moment of stillness between five women brought together by curiosity, care, and a deep love for tea.
+    </p>
+
+    <p>
+      We are a small collective of five ladies, united by a passion for both <span class="highlight">tea and technology</span>. While our paths began in different parts of the world, we now call Switzerland home — a place where cultures meet quietly, and where our ideas could take root.
+    </p>
+
+    <p>
+      Each of us carries a different story, a different rhythm, a different way of seeing the world. Together, we blend these perspectives into something intentional: a space where tradition meets innovation, and where simplicity becomes something meaningful.
+    </p>
+
+    <p>
+      At The Quiet Kettle, we believe tea is more than a drink. It is a ritual. A breath. A gentle return to yourself.
+    </p>
+
+    <p>
+      Our hope is to create not just a shop, but a feeling — a quiet corner in your day where you can slow down, reconnect, and simply be.
+    </p>
+
+    <p class="highlight">
+      Pour gently. Sip slowly. Stay awhile.
+    </p>
+
+    <div class="about-photo">
+      <img src="images/women.png" alt="The team of five women" />
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 The Quiet Kettle. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

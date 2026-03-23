@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Quiet Kettle</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #f8f4f0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+/* Consistent Header */
+header {
+  display: flex;
+  align-items: center;      /* vertical alignment */
+  justify-content: space-between; /* space between logo and cart */
+  background-color: #d7c5a8;
+  padding: 20px 40px;       /* consistent padding */
+  height: 80px;             /* fixed height for uniformity */
+  box-sizing: border-box;
+  position: relative;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #4b3b2f;
+  font-family: 'Georgia', serif;
+  margin: 0;
+}
+
+    /* Cart icon */
+    .cart {
+      position: absolute;
+      right: 20px;
+      top: 25px;
+      font-size: 1.4em;
+      cursor: pointer;
+      color: #4b3b2f;
+      transition: transform 0.2s;
+    }
+
+    .cart:hover {
+      transform: scale(1.1);
+    }
+
+    /* Optional cart badge */
+    .cart-count {
+      background-color: #4b3b2f;
+      color: white;
+      font-size: 0.7em;
+      padding: 2px 6px;
+      border-radius: 50%;
+      position: absolute;
+      top: -8px;
+      right: -10px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4b3b2f;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #3a2e24;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+      background: url('images/mareefe2.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    /* Hover effect */
+    .product:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    .product img {
+      max-width: 100%;
+      border-radius: 5px;
+      transition: transform 0.3s;
+    }
+
+    .product img:hover {
+      transform: scale(1.05);
+    }
+
+    .product h3 {
+      margin: 15px 0 10px 0;
+      color: #4b3b2f;
+    }
+
+    .product p {
+      color: #555;
+      font-size: 0.95em;
+      margin-bottom: 15px;
+    }
+
+    .product button {
+      background-color: #4b3b2f;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .product button:hover {
+      background-color: #3a2e24;
+    }
+
+    footer {
+      background-color: #d7c5a8;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    footer p {
+      color: #4b3b2f;
+    }
+
+    /* Login button style */
+    .login-btn {
+      background-color: #4b3b2f;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 15px;
+      transition: background-color 0.3s;
+    }
+
+    .login-btn:hover {
+      background-color: #3a2e24;
+    }
+
+    /* Monthly Arrivals Section */
+.monthly-arrivals {
+  text-align: center;
+  margin: 60px 0 40px 0;
+}
+
+.monthly-arrivals h2 {
+  font-family: 'Georgia', serif;
+  color: #4b3b2f;
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
+.monthly-arrivals .intro {
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Newsletter Banner */
+.newsletter-banner {
+  position: relative;
+  background-color: #f0e6d2; /* soft tea color */
+  color: #4b3b2f;
+  text-align: center;
+  padding: 15px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1em;
+}
+
+.newsletter-banner p {
+  margin: 0;
+  flex: 1 1 100%;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.newsletter-form button {
+  padding: 8px 15px;
+  background-color: #4b3b2f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+  background-color: #3a2e24;
+}
+
+/* Close button */
+.close-banner {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+  </style>
+<script>
+  const closeBtn = document.querySelector('.close-banner');
+  const banner = document.querySelector('.newsletter-banner');
+
+  closeBtn.addEventListener('click', () => {
+    banner.style.display = 'none';
+  });
+</script>
+
+</head>
+<body>
+ <header>
+    <h1>The Quiet Kettle</h1>
+
+    <!-- New elegant cart icon -->
+    <div class="cart">
+      <i class="fas fa-bag-shopping"></i>
+      <span class="cart-count">0</span>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" class="login-btn">Login</a>
+    </nav>
+  </header>
+ 
+
+  <main>
+    <section class="hero">
+      <h2>Welcome to The Quiet Kettle</h2>
+      <p>Discover hand-picked teas from around the world, brewed for your quiet moments.</p>
+      
+    </section>
+
+    <section class="monthly-arrivals">
+<h2>Our Monthly Arrivals</h2>
+<div class="newsletter-banner">
+  <p>Stay in the quiet moment — subscribe to our newsletter for the latest teas and mindful tips!</p>
+  <form class="newsletter-form">
+    <input type="email" placeholder="Your email" required>
+    <button type="submit">Subscribe</button>
+  </form>
+  <span class="close-banner">&times;</span>
+</div>
+
+  <p class="intro">
+  </p></section>
+
+    <section class="products">
+      <div class="product">
+        
+        <h3>Green Tea</h3>
+        <p>Refreshing, organic green tea to start your day right.</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        
+        <h3>Chamomile Tea</h3>
+        <p>Calming chamomile tea for peaceful evenings.</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        
+        <h3>Black Tea</h3>
+        <p>Bold and rich black tea, perfect with milk or lemon.</p>
+        <button>Add to Cart</button>
+      </div>
+    </section>
+    <!-- Newsletter Banner -->
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 The Quiet Kettle. All rights reserved.</p>
+  </footer>
+</body>
+</html>

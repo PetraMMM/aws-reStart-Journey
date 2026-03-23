@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop - The Quiet Kettle</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #f8f4f0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Consistent Header */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #d7c5a8;
+      padding: 20px 40px;
+      height: 80px;
+      box-sizing: border-box;
+    }
+
+    header h1 {
+      font-size: 2em;
+      color: #4b3b2f;
+      font-family: 'Georgia', serif;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4b3b2f;
+      font-weight: bold;
+      padding: 5px 10px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #3a2e24;
+    }
+
+    .login-btn {
+      background-color: #4b3b2f;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .login-btn:hover {
+      background-color: #3a2e24;
+    }
+
+    /* Cart icon */
+    .cart {
+      font-size: 1.4em;
+      color: #4b3b2f;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      position: relative;
+    }
+
+    .cart-count {
+      background-color: #4b3b2f;
+      color: white;
+      font-size: 0.7em;
+      padding: 2px 6px;
+      border-radius: 50%;
+      position: absolute;
+      top: -8px;
+      right: -10px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #4b3b2f;
+      font-family: 'Georgia', serif;
+      margin-bottom: 15px;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+      color: #555;
+      font-size: 1.05em;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .product {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    .product:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    .product img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+      transition: transform 0.3s;
+    }
+
+    .product img:hover {
+      transform: scale(1.05);
+    }
+
+    .product h3 {
+      margin: 15px 0 10px;
+      color: #4b3b2f;
+    }
+
+    .product p {
+      font-size: 0.95em;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .product button {
+      background-color: #4b3b2f;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .product button:hover {
+      background-color: #3a2e24;
+    }
+
+    footer {
+      background-color: #d7c5a8;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    footer p {
+      color: #4b3b2f;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Quiet Kettle</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" class="login-btn">Login</a>
+      <div class="cart">
+        <i class="fas fa-bag-shopping"></i>
+        <span class="cart-count">0</span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Teas</h2>
+    <p class="intro">
+      We present a curated selection of teas, carefully chosen to bring calm, balance, and quiet moments into your daily ritual.
+    </p>
+
+    <section class="products">
+      <div class="product">
+        <img src="images/green-tea.jpg" alt="Green Tea">
+        <h3>Green Tea</h3>
+        <p>Fresh and light, our green tea brings clarity and balance to your day.</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="images/chamomile-tea.jpg" alt="Chamomile Tea">
+        <h3>Chamomile Tea</h3>
+        <p>Soft and calming, perfect for unwinding in the evening.</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="images/black-tea.jpg" alt="Black Tea">
+        <h3>Black Tea</h3>
+        <p>Bold and rich, a classic tea to start your morning strong.</p>
+        <button>Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 The Quiet Kettle. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
