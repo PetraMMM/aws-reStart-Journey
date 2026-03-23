@@ -23,7 +23,7 @@ The website consists of 5 main pages, all accessible via the global navigation m
 
 * **Development:** All HTML and CSS code was authored using **Visual Studio Code**.
 
-   ![Html files](https://github.com/PetraMMM/aws-reStart-Journey/tree/main/Projects/Static%20Website%20/html%20files)
+ ![Html files](https://github.com/PetraMMM/aws-reStart-Journey/tree/main/Projects/Static%20Website%20/html%20files)
 
 * **Deployment:** The project is a purely static website. It is **hosted as a static website on an Amazon S3** (Simple Storage Service) bucket. The Bucket was created in the AWS Management Console.  The Bucket´s name was "the-quiet-kettle". We have enabled public access and bucket policies, uploaded files (html files for each page and pictures)  and we hosted the web page at ```
 [http://the-quiet-kettle.s3-website-us-west-2.amazonaws.com/login.html]```.
