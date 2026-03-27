@@ -14,14 +14,17 @@ While Amazon RDS supports multiple database engines, including Amazon Aurora, Or
 
 I have accomplished the following technical objectives during this challenge:
 
-* **Launching a High-Availability RDS Instance:** I successfully navigated the AWS Management Console to provision a new, fully operational **Amazon RDS DB instance**. Crucially, I configured this instance for **high availability**, implementing features like Multi-AZ deployment to ensure database resilience and minimize downtime in a production-like environment. This involved configuring essential parameters such as the database engine (MySQL), instance class, storage type, and redundancy settings.
+* **Launching a High-Availability RDS Instance:** I successfully navigated the AWS Management Console to provision a new, fully operational **Amazon RDS DB instance**. Crucially, I configured this instance for **high availability**, implementing features like Multi-AZ deployment to ensure database resilience and minimize downtime in a production-like environment. This involved configuring essential parameters such as the database engine (MySQL), instance class, storage type.
+
+<img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/917a17bd-9a2b-4e26-ad9a-8cf46c84db95" />
+
 * **Configuring Security for Application Connectivity:** Once the RDS instance was active, I performed the necessary steps to allow a web server to connect securely. This involved modifying the database's **VPC Security Group** rules to authorize inbound traffic on the MySQL port (3306) specifically from the security group associated with the web server, demonstrating my understanding of secure network configuration between AWS tiers.
 
 <img width="500" height="260" alt="image" src="https://github.com/user-attachments/assets/e984129f-186e-4795-b43a-124a9a92ba31" />
 
 
-* **Integrating a Web Application with the Database:** Once connectivity was established, I utilized a pre-configured **web application** running on an EC2 instance. I successfully opened the application in a web browser and interacted directly with the live RDS database, performing standard database operations (like creating tables or inserting data) through the app's interface, verifying the end-to-end integration.
+* **Integrating a Web Application with the Database:** Once connectivity was established, I utilized a pre-configured **web application** running on an EC2 instance. I successfully opened the application in a web browser and interacted directly with the live RDS database.
 
 ## Learning Outcomes
 
-This project provided practical experience in deploying and managing resilient, cloud-based relational databases. Key takeaways include understanding how AWS RDS automates administrative burdens, mastering the configuration for high availability and robust network security between application and database tiers, and gaining confidence in integrating active web applications with cloud-managed database solutions.
+This project provided practical experience in deploying and managing resilient, cloud-based relational database.
