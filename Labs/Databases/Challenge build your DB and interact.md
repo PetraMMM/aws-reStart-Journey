@@ -33,4 +33,4 @@ I have accomplished the following technical objectives during this challenge:
 
 #### Learning Outcomes
 
-This project provided practical experience in deploying and managing cloud-based relational databases. Key takeaways include understanding how AWS manages the underlying infrastructure and how to efficiently interact with an RDS instance to create tables, insert data, and execute complex SQL queries, laying a strong foundation for cloud-native application development.
+This project provided me practical experience in deploying and managing cloud-based relational databases. Key takeaways include understanding how AWS manages the underlying infrastructure and how to efficiently interact with an RDS instance to create tables, insert data, and execute complex SQL queries.
