@@ -6,6 +6,10 @@ In this hands-on challenge lab, I successfully reinforced my understanding of le
 
 While Amazon RDS supports multiple database engines, including Amazon Aurora, Oracle, Microsoft SQL Server, PostgreSQL, MySQL, and MariaDB, this lab provided me with specific, job-ready competencies centered around high availability, security configuration, and application integration.
 
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/9a33469b-1660-4cf7-bf48-f8b5624aca75" />
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/8c76d074-b0ec-4c69-879e-11977e451fd8" />
+
+
 ## Objectives Accomplished
 
 I have accomplished the following technical objectives during this challenge:
