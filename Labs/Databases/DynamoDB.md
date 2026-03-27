@@ -10,7 +10,7 @@ During this lab, I deployed and managed a DynamoDB table specifically configured
 
 I have accomplished the following technical objectives during this project:
 
-* **DynamoDB Table Creation:** I successfully navigated the AWS Management Console to provision a new **Amazon DynamoDB table** named for my music library. This involved defining the vital schema elements: the **Partition Key** (to uniquely partition the data) and the optional **Sort Key** (to further organize and sort data within each partition).
+* **DynamoDB Table Creation:** I successfully navigated the AWS Management Console to provision a new **Amazon DynamoDB table** named Music for my music library. This involved defining the vital schema elements: the **Partition Key** (to uniquely partition the data) and the optional **Sort Key** (to further organize and sort data within each partition).
 
 <img width="500" height="420" alt="image" src="https://github.com/user-attachments/assets/00681604-2d85-43ec-ac19-059dc4aa9871" />
 
