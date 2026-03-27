@@ -17,6 +17,10 @@ I have accomplished the following technical objectives during this project:
 
 * **Data Entry and Item Creation:** Once the table was active, I manually populated the database with multiple sample **items**. This process demonstrated how flexible the DynamoDB NoSQL model is, allowing each item (representing a song) to have different attributes beyond the required primary keys.
 * **Querying the NoSQL Table:** I utilized the integrated tools in the AWS console to execute powerful **queries** against the music library. This allowed me to practice efficiently retrieving specific items based on their primary keys, as well as applying specific **filters** to refine the results—crucial skills for optimizing data retrieval in NoSQL environments.
+
+<img width="500" height="279" alt="image" src="https://github.com/user-attachments/assets/4d09ff99-6ac6-4221-ab68-c9758199240d" />
+
+
 * **Database Cleanup and Deletion:** After verifying the table and the results of my queries, I performed essential database cleanup by successfully **deleting** the Amazon DynamoDB table. This action reinforces proper resource management and highlights how quickly fully managed AWS services can be spun down when they are no longer needed.
 
 ## Learning Outcomes
