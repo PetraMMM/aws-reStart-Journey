@@ -23,6 +23,8 @@ I have accomplished the following technical objectives during this challenge:
 * **Advanced Data Population and Modification:** I populated my database with complex sample data, mastering the correct use of single quotes for text strings and datetimes.
   
  <img width="250" height="200" alt="image" src="https://github.com/user-attachments/assets/393c1c2b-b192-475c-b418-00e134b3f31e" />
+ <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/48667d7d-355d-435c-9093-fbc7c50b2bcd" />
+
 
 * **Performing INNER JOIN Queries:** I executed the core relational database operation—an **INNER JOIN**—between my two custom tables (`RESTART` and `CLOUD_PRACTITIONER`). This allowed me to efficiently link and display matching records (`Student Name`, `Student ID`, and `Certification Date`) from both sets of data.
 
