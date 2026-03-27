@@ -4,13 +4,15 @@
 
 In this hands-on challenge lab, I successfully reinforced my understanding of leveraging AWS-managed database instances to solve relational database needs. The core focus was on **Amazon Relational Database Service (Amazon RDS)**, an AWS service that simplifies setting up, operating, and scaling a relational database in the cloud. By utilizing Amazon RDS, I experienced firsthand how it provides cost-efficient, resizable capacity while automating time-consuming database administration tasks.
 
-While Amazon RDS supports multiple database engines, including Amazon Aurora, Oracle, Microsoft SQL Server, PostgreSQL, MySQL, and MariaDB, this lab provided me with specific, job-ready competencies centered around creation and querying.
-
 #### Objectives Accomplished
 
 I have accomplished the following technical objectives during this challenge:
 
 * **RDS Instance Creation:** I successfully navigated the AWS Management Console to provision a new, fully operational **Amazon RDS instance**. This involved configuring essential parameters such as the database engine (MySQL), instance class, storage type, and security settings to create a robust database backend.
+
+<img width="500" height="185" alt="image" src="https://github.com/user-attachments/assets/530caa24-7e35-49bf-9680-d0a55b0fad72" />
+
+
 * **Database Interaction via Query Editor:** Once the RDS instance was active, I utilized the built-in **Amazon RDS Query Editor** within the AWS console. This powerful, integrated tool allowed me to directly connect to the database, run SQL queries, and validate data without needing to install or configure external database client software.
 * **Linux/EC2 Server Administration:** I executed essential system administration tasks directly on the Amazon Linux EC2 instance. This included installing the necessary database server packages (`sudo yum install`), managing database services (`systemctl start`/`status`), and identifying connectivity issues related to the MariaDB socket file.
 * **Database User Security and Authentication:** I successfully navigated common authentication hurdles on a fresh database installation. I identified and resolved **Access Denied ERROR 1045 (28000)** for the `root` user, demonstrating my ability to manage user credentials and secure access.
