@@ -28,6 +28,7 @@ I have accomplished the following technical objectives during this challenge:
 
 * **Performing INNER JOIN Queries:** I executed the core relational database operation—an **INNER JOIN**—between my two custom tables (`RESTART` and `CLOUD_PRACTITIONER`). This allowed me to efficiently link and display matching records (`Student Name`, `Student ID`, and `Certification Date`) from both sets of data.
 
+<img width="250" height="117" alt="image" src="https://github.com/user-attachments/assets/57f30b4e-46b2-4146-a7a3-18516c24220e" />
 
 
 #### Learning Outcomes
