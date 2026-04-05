@@ -9,7 +9,7 @@ In this project, I moved beyond default settings to build a custom, logically is
 
 I designed and implemented a Virtual Private Cloud (VPC) to provide a secure foundation for cloud resources. The process involved defining the network boundaries, setting up connectivity, and deploying a live EC2 instance to act as a web server.
 
-<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/942a82f1-8bcf-4d37-b99e-e59c684fbf10" />
+<img width="400" height="180" alt="image" src="https://github.com/user-attachments/assets/942a82f1-8bcf-4d37-b99e-e59c684fbf10" />
 
 
 ### Key Tasks Performed:
@@ -22,6 +22,9 @@ I designed and implemented a Virtual Private Cloud (VPC) to provide a secure fou
 
 
 * **Web Server Deployment:** I launched an **Amazon EC2 instance** into the newly created VPC, ensuring it was correctly associated with the custom subnet and security group.
+
+<img width="400" height="215" alt="image" src="https://github.com/user-attachments/assets/44ac7684-12a2-409a-a705-e7b886593047" />
+
 
 ---
 
