@@ -22,6 +22,10 @@ I took a systematic approach to identify whether the blockage was occurring at t
 * **Security Group Audit:** I inspected the **Security Groups** and found that inbound rules for **HTTP (Port 80)** were missing.
 * **Route Table Verification:** I verified that the instance was in a public subnet with a valid path to an **Internet Gateway (IGW)**.
 * **Problem Resolution:** I modified the security rules to allow traffic on the necessary ports.
+
+<img width="400" height="150" alt="image" src="https://github.com/user-attachments/assets/5e229026-a73b-4ef9-9914-58368b76f6f5" />
+
+
 * **Verification:** I performed final testing by successfully pinging the instance and loading the Apache test page via the public IP.
 
 ---
