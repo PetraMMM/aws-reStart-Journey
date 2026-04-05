@@ -7,7 +7,7 @@ In this project, I built a custom, logically isolated virtual network on AWS fro
 
 ## Project Overview
 
-I provisioned a complete Virtual Private Cloud (VPC) environment, including both public and private subnets. This architecture follows cloud best practices by placing sensitive resources in a private area and using a "Bastion Host" (jump server) as a secure gateway for administrative access.
+I provisioned a complete Virtual Private Cloud (VPC) environment, including both public and private subnets. This architecture follows cloud best practices by placing sensitive resources in a private area and using a "Bastion Host" as a secure gateway for administrative access.
 
 <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/bcadf86e-3fb1-4f76-9933-8e70e88c7239" />
 
@@ -16,7 +16,16 @@ I provisioned a complete Virtual Private Cloud (VPC) environment, including both
 
 * **VPC Foundation:** I created a custom VPC and carved out specific IP address ranges by designing both **public and private subnets**.
 * **Connectivity Routing:** I deployed an **Internet Gateway (IGW)** to allow public access and a **NAT Gateway** to allow private instances to download updates without being exposed to the open internet.
+
+<img width="400" height="160" alt="image" src="https://github.com/user-attachments/assets/e4cecc41-52de-4515-b512-e792e5bdd1ab" />
+
+
 * **Route Table Management:** I configured and associated separate route tables for each subnet to ensure traffic was correctly directed to either the IGW or the NAT Gateway.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/31854598-d6c0-47f6-a7ed-2d082a59fdad" />
+
+
+
 * **Secure Access Bridge:** I launched a **Bastion Host** in the public subnet and used it as a secure "jumping point" to log in to an EC2 instance located in the private subnet.
 
 ---
