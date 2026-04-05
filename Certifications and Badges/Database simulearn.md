@@ -27,4 +27,4 @@ After designing the solution, I transitioned to a live AWS Management Console en
 
 ## Final Result
 
-By integrating both the soft-skill simulation and the hard-skill technical build, I successfully deployed a working, scalable, serverless file-sharing solution for the pet modeling agency, confirming that Amazon EFS provides the perfect balance of ease of use, concurrent access, and scalability for this real-world scenario.
+I successfully deployed a working, scalable, serverless file-sharing solution for the pet modeling agency, confirming that Amazon EFS provides the perfect balance of ease of use, concurrent access, and scalability for this real-world scenario.
