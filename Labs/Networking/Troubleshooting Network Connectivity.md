@@ -19,7 +19,7 @@ I took a systematic approach to identify whether the blockage was occurring at t
 ### Key Tasks Performed:
 
 * **Scenario Analysis:** I reviewed the customer's infrastructure to map out the traffic path from the public internet to the EC2 instance.
-* **Security Group Audit:** I inspected the **Security Groups** and found that inbound rules for **HTTP (Port 80)** were missing or incorrectly configured.
+* **Security Group Audit:** I inspected the **Security Groups** and found that inbound rules for **HTTP (Port 80)** were missing.
 * **Route Table Verification:** I verified that the instance was in a public subnet with a valid path to an **Internet Gateway (IGW)**.
 * **Problem Resolution:** I modified the security rules to allow traffic on the necessary ports.
 * **Verification:** I performed final testing by successfully pinging the instance and loading the Apache test page via the public IP.
@@ -38,11 +38,11 @@ I took a systematic approach to identify whether the blockage was occurring at t
 
 * **Cloud Provider:** Amazon Web Services (AWS)
 * **Web Server:** Apache (HTTPD)
-* **Networking & Security:** Amazon VPC, Security Groups, ICMP, TCP/IP
+* **Networking & Security:** Amazon VPC, Security Groups, TCP/IP
 * **Compute:** Amazon EC2
 
 ---
 
 ## Conclusion
 
-This project reinforced the importance of security group configuration in cloud environments. By analyzing the symptoms provided by the customer, I was able to pinpoint exactly where the communication was breaking down and restore service quickly, ensuring the web server was both secure and accessible.
+This project reinforced the importance of security group configuration in cloud environment. By analyzing the symptoms provided by the customer, I was able to pinpoint exactly where the communication was breaking down and restore service, ensuring the web server was both secure and accessible.
