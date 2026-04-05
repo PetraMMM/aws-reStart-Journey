@@ -24,11 +24,6 @@ After designing the solution, I transitioned to a live AWS Management Console en
 3.  **Amazon EFS Deployment:** I successfully created a new Amazon Elastic File System and configured its mount targets within the same Virtual Private Cloud (VPC) as the EC2 instances.
 4.  **Verification & Mounting:** Finally, I successfully mounted the Amazon EFS file system onto each EC2 instance and verified that files created on one instance were immediately accessible and modifiable from the other instances, demonstrating a robust and truly shared storage solution.
 
-## How it works (SimuLearn Component)
-
-This project unique utilized **AWS SimuLearn**, which is powered by generative AI. I gained practical experience by having life-like conversations with AI-generated customers to gather requirements and present my design.
-
-* **Generative AI Conversations:** Engaged in iterative dialogues to improve soft skills like communication and problem-solving.
 
 ## Final Result
 
