@@ -17,6 +17,10 @@ I designed and implemented a Virtual Private Cloud (VPC) to provide a secure fou
 * **VPC Creation:** I established a custom **Virtual Private Cloud (VPC)**, defining a specific IP address range to isolate my resources from other users.
 * **Subnet Design:** I created **subnets** within the VPC to organize the network and prepare it for hosting resources in specific Availability Zones.
 * **Security Configuration:** I built and configured a **Security Group**, acting as a virtual firewall. I specifically wrote rules to control which traffic (such as HTTP or SSH) was allowed to reach my instance.
+
+<img width="400" height="180" alt="image" src="https://github.com/user-attachments/assets/f0b6be45-7602-4ed5-b746-8822326727f6" />
+
+
 * **Web Server Deployment:** I launched an **Amazon EC2 instance** into the newly created VPC, ensuring it was correctly associated with the custom subnet and security group.
 
 ---
