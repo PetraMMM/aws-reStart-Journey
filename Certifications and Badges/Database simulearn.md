@@ -4,7 +4,7 @@
 
 In this hands-on AWS SimuLearn project, I stepped into the role of a cloud solution architect to tackle a real-world business challenge for a fictional pet modeling agency. The agency needed a robust, scalable method to share files seamlessly across its various branch offices without the overhead of managing physical storage infrastructure. This assignment required analyzing different AWS storage options and designing a solution that met their needs before transitioning to a live environment to build and validate the proposed architecture.
 
-## objectives & Key Accomplishments
+## Objectives & Key Accomplishments
 
 Through this project, I successfully achieved the following technical and analytical objectives:
 
