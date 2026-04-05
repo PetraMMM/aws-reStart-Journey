@@ -29,8 +29,7 @@ I took a systematic approach to identify whether the blockage was occurring at t
 ## Objectives Achieved
 
 * **Technical Troubleshooting:** Applied a logical "bottom-up" troubleshooting method to isolate network failures.
-* **Protocol Knowledge:** Demonstrated understanding of **HTTP (TCP Port 80)** for web traffic and ""  for network diagnostics ().
-* **Protocol Knowledge:** Demonstrated understanding of **HTTP (TCP Port 80)** for web traffic and ""  for network diagnostics ().
+* **Protocol Knowledge:** Demonstrated understanding of **HTTP (TCP Port 80)** for web traffic and "ping"  for network diagnostics.
 * **Security Policy Management:** Correctly implemented security rules to allow legitimate traffic while maintaining the principle of least privilege.
 
 ---
