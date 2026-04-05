@@ -17,9 +17,17 @@ The goal of this lab was to establish a secure "Internal-only" connection betwee
 *   **Routing Configuration:** 
     *   I configured **Route Tables** attached to specific subnets to manage how data moves internally.
     *   I established a route to direct internet-bound traffic to an **Internet Gateway (IGW)**, allowing the web tier to be reachable from the outside world.
-*   **Security Group Orchestration (DIY Goal):**
+
+<img width="400" height="180" alt="image" src="https://github.com/user-attachments/assets/9d98d7fd-a9df-4f6d-be68-6e07f96b00cd" />
+
+   
+*   **Security Group (DIY Goal):**
     *   I modified the **DbServerSecurityGroup** to allow inbound traffic on **Port 3306** (MySQL/Aurora).
     *   I specifically configured the rules so that the Database server would only accept requests coming from the **WebServerSecurityGroup**, implementing a "Least Privilege" security model.
+
+<img width="400" height="180" alt="image" src="https://github.com/user-attachments/assets/5bb9e8e8-d543-44f3-93ae-2e224fc2a72b" />
+
+
 *   **Connection Validation:** I verified that the Web Server (on the `10.10.0.0/24` subnet) could successfully communicate with the DB Server (on the `10.10.2.0/24` subnet) over the required TCP port.
 
 ---
