@@ -15,17 +15,25 @@ I followed a structured methodology to move from a state of total connectivity l
 
 ### Key Tasks Performed:
 
-*   **Storage Provisioning:** I created a dedicated **Amazon S3 bucket** to act as the centralized repository for network telemetry.
+*   **Storage Provisioning:** I created a dedicated **Amazon S3 bucket** to act as the centralized repository for Flow Logs.
 *   **Traffic Capture:** I configured **VPC Flow Logs** to capture all IP traffic (accepted and rejected) flowing through the network interfaces within the VPC.
 *   **Network Troubleshooting:** I identified and resolved VPC configuration issues to restore access to the resources, ensuring that routing and security rules were correctly aligned.
-*   **Log Analysis:** I downloaded and parsed the flow log data to verify successful traffic flow and ensure the troubleshooting steps were effective.
+*   **Log Analysis:** I downloaded the flow log data to verify successful traffic flow and ensure the troubleshooting steps were effective.
 
 ---
 
 ## Objectives Achieved
 
 *   **VPC Flow Log Implementation:** Gained hands-on experience in setting up logging at the VPC level to monitor network health.
+
+<img width="1532" height="450" alt="image" src="https://github.com/user-attachments/assets/2244f1ee-8c92-4617-85f7-e0d1bccad3b8" />
+
+
 *   **Connectivity Troubleshooting:** Successfully diagnosed why specific EC2 instances could not communicate, focusing on route tables and security policies.
+
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/619ae7ee-cd60-4216-a67c-195313613034" />
+
+
 *   **Data Analysis:** Analyzed raw flow log fields (source/destination IP, port, protocol, and action) to distinguish between successful connections and blocked requests.
 
 ---
