@@ -34,7 +34,7 @@ The goal of this lab was to establish a secure "Internal-only" connection betwee
 
 ## Objectives Achieved
 
-*   **Traffic Steering:** Mastered the ability to use Route Tables to define specific paths for both internal and internet-bound data.
+*   **Traffic Steering:** Schowcased the ability to use Route Tables to define specific paths for both internal and internet-bound data.
 *   **Tiered Security:** Successfully implemented a two-tier architecture where the database is shielded from the internet and only accessible by the web server.
 *   **Database Connectivity:** Gained hands-on experience opening specific ports (3306) for standard database protocols (MySQL/Aurora).
 
@@ -51,4 +51,4 @@ The goal of this lab was to establish a secure "Internal-only" connection betwee
 
 ## Conclusion
 
-By completing this project, I demonstrated the ability to bridge the gap between two isolated subnets. This exercise reinforced the importance of "chained" security groups—where one security group acts as the authorized source for another—ensuring that sensitive data remains protected even within the internal network.
+By completing this project, I demonstrated the ability to bridge the gap between two isolated subnets. This exercise reinforced the importance of "chained" security groups, where one security group acts as the authorized source for another, ensuring, that sensitive data remains protected even within the internal network.
