@@ -10,7 +10,7 @@ In this lab, I managed an environment featuring two separate VPCs, EC2 instances
 
 I followed a structured methodology to move from a state of total connectivity loss to a fully functional, monitored network.
 
-<img width="800" height="415" alt="image" src="https://github.com/user-attachments/assets/0f4a8377-4903-42d1-a22d-959cb1df9791" />
+<img width="400" height="208" alt="image" src="https://github.com/user-attachments/assets/0f4a8377-4903-42d1-a22d-959cb1df9791" />
 
 
 ### Key Tasks Performed:
