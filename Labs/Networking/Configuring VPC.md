@@ -9,7 +9,7 @@ In this project, I built a custom, logically isolated virtual network on AWS fro
 
 I provisioned a complete Virtual Private Cloud (VPC) environment, including both public and private subnets. This architecture follows cloud best practices by placing sensitive resources in a private area and using a "Bastion Host" as a secure gateway for administrative access.
 
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/bcadf86e-3fb1-4f76-9933-8e70e88c7239" />
+<img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/bcadf86e-3fb1-4f76-9933-8e70e88c7239" />
 
 
 ### Key Tasks Performed:
