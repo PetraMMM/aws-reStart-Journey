@@ -23,14 +23,24 @@ The customer had a vision for their network but was missing the "glue" that conn
 
 * **Layered Security:**
     * **Network ACLs (NACLs):** I configured a Network Access Control List to act as a stateless firewall for the subnet.
-    * **Security Groups:** I set up a stateful firewall for the **EC2 instance**, specifically allowing **ICMP traffic** to enable the ping command.
+      
+      <img width="400" height="220" alt="image" src="https://github.com/user-attachments/assets/52b6ba8d-b3d7-4c3d-ae4c-afae5cce0edb" />
+
+    * **Security Groups:** I set up a stateful firewall for the **EC2 instance**.
+
+      <img width="400" height="260" alt="image" src="https://github.com/user-attachments/assets/f73f50b5-eeba-41b5-b25a-994b34eb923d" />
+
+      
 * **Testing & Validation:** I launched an EC2 instance and used the command line to successfully **ping an external address**, proving the network was fully routable.
+
+<img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/6a79f8a7-a1d4-49d1-abad-1d909e5ccaf6" />
+
 
 ---
 
 ## Objectives Achieved
 
-* **End-to-End Connectivity:** Mastered the specific order of operations required to make a VPC "internet-aware."
+* **End-to-End Connectivity:** Managed the specific order of operations required to make a VPC "internet-aware."
 * **Diagnostic:** Successfully addressed the customer's core requirement—enabling ICMP (Ping) functionality—which required aligning Route Tables, IGWs, and Security Groups.
 * **Console Proficiency:** Gained familiarity with the AWS Management Console’s networking and VPC dashboards.
 
@@ -40,11 +50,11 @@ The customer had a vision for their network but was missing the "glue" that conn
 
 * **Cloud Provider:** Amazon Web Services (AWS)
 * **Networking:** Amazon VPC, Internet Gateway (IGW), Route Tables
-* **Security:** Security Groups (Layer 4), Network ACLs (Layer 3), ICMP Protocol
+* **Security:** Security Groups, Network ACLs
 * **Compute:** Amazon EC2
 
 ---
 
 ## Conclusion
 
-This project allowed me to solve a fundamental connectivity puzzle. By building the network piece-by-piece, I demonstrated that "just needing to ping" actually requires a perfectly synchronized set of resources—from the gateway and routes to the specific ICMP rules in the security layer.
+This project allowed me to solve a connectivity puzzle. By building the network piece-by-piece, I demonstrated that "just needing to ping" actually requires a perfectly synchronized set of resources from the Internet gateway, route tables, Security groups and NACLs.
