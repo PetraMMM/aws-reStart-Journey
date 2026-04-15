@@ -26,7 +26,7 @@ We carefully selected each service to ensure the platform remains performant and
 
 ---
 
-<img width="1500" height="1550" alt="image" src="https://github.com/user-attachments/assets/2cb0ef40-3723-49f2-820d-31c8cce9cb26" />
+<img width="750" height="755" alt="image" src="https://github.com/user-attachments/assets/2cb0ef40-3723-49f2-820d-31c8cce9cb26" />
 
 
 
