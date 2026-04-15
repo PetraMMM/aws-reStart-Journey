@@ -34,7 +34,7 @@ We carefully selected each service to ensure the platform remains performant and
 
 ### 1. High Availability (24/7 Uptime)
 * **Multi-AZ Deployment:** We spread the architecture across two Availability Zones. If one data center fails, the Elastic Load Balancer and Route 53 automatically reroute traffic to the healthy zone.
-* **Database Redundancy:** We configured Amazon Aurora to maintain a synchronized "Standby" copy in a different zone to prevent data loss during an outage.
+* **Database Redundancy:** We configured Amazon Aurora to maintain a synchronized "Standby" copy in a different zone to prevent data loss during an outage. The Standby copy serves as both a read replica and a failover database.
 
 ### 2. Scalability 
 * **Elasticity:** We set up the Auto Scaling Group (ASG) to monitor traffic spikes. During high-demand product launches, the system automatically launches new EC2 instances and terminates them when traffic subsides.
@@ -45,7 +45,7 @@ We carefully selected each service to ensure the platform remains performant and
 * **VPC Endpoints:** We used Private Endpoints for S3 and DynamoDB to keep data traffic within the AWS backbone, avoiding the slower public internet.
 
 ### 4. Security
-* **Defense in Depth:** We utilized a Public/Private Subnet strategy. We hid the database and application servers in Private Subnets, making them unreachable from the public internet.
+* **Defense in Depth:** We utilized a Public/Private Subnet strategy. We hid the databases and application servers in Private Subnets, making them unreachable from the public internet.
 * **IAM Roles:** we assigned strict "Least Privilege" roles to services so they only have the minimum permissions needed to function.
 * **WAF:** We configured AWS WAF to act as a bouncer, filtering malicious requests before they ever enter the network.
 
@@ -63,7 +63,7 @@ We structured the data flow to be as efficient as possible:
 2. **Inspection:** AWS WAF inspects the request at the CloudFront edge.
 3. **Handoff:** The request enters the VPC via the Internet Gateway and hits the ALB.
 4. **Processing:** The ALB sends the request to an EC2 instance in a Private Subnet.
-5. **Data Retrieval:** The EC2 fetches 3D metadata from DynamoDB and user data from Aurora (using local Read Replicas for speed).
+5. **Data Retrieval:** The EC2 fetches catalogue data from DynamoDB and user data from Aurora (using local Read Replicas for speed).
 6. **Asset Delivery:** Heavy 3D files are fetched from S3 via a VPC Endpoint, remaining entirely off the public internet.
 
 ---
