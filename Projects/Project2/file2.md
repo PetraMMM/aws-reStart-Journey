@@ -3,7 +3,7 @@
 ## Project Overview
 We designed this cloud-native, highly available architecture to solve a specific challenge: delivering heavy 3D assets (like furniture and high-fidelity gadgets) to millions of global users without compromising performance. 
 
-By leveraging a robust AWS stack—specifically Amazon CloudFront, S3, and Amazon Aurora—we built a system that ensures a secure, fast rendering experience that scales automatically with global demand.
+By using a robust AWS stack—specifically Amazon CloudFront, S3, and Amazon Aurora—we built a system that ensures a secure, fast rendering experience that scales automatically with global demand.
 
 ---
 
@@ -17,8 +17,8 @@ We carefully selected each service to ensure the platform remains performant and
 | AWS WAF | Security Shield | We integrated WAF with CloudFront to block SQL injections and bots at the "edge" before they reach our backend. |
 | CloudFront | Content Delivery (CDN) | This was essential for caching heavy 3D models (.glb/.usdz) at edge locations to provide a smooth user experience. |
 | Amazon S3 | Object Storage | We chose S3 for its industry-leading durability for 3D assets, integrated with CloudFront for secure delivery. |
-| ALB | Traffic Distribution | We used an Application Load Balancer to automatically distribute incoming traffic across EC2 instances to prevent bottlenecks. |
-| EC2 (ASG) | Backend Compute | We utilized Auto Scaling Groups to allow the platform to grow or shrink based on real-time CPU/Memory demand. |
+| ALB (Application Load Balancer) | Traffic Distribution | We used an Application Load Balancer to automatically distribute incoming traffic across EC2 instances to prevent bottlenecks. |
+| EC2  Auto Scaling Group | Backend Compute | We utilized Auto Scaling Groups to allow the platform to grow or shrink based on real-time CPU/Memory demand. |
 | AWS Lambda | Serverless Compute | We used Lambda for event-driven tasks (like order processing or image resizing) to save costs and avoid managing servers. |
 | Amazon Aurora | Relational Database | We chose Aurora to handle critical transaction and user data with automated failover and high performance. |
 | DynamoDB | NoSQL Database | We implemented DynamoDB for the product catalog to provide millisecond response times during high-speed searches. |
@@ -26,7 +26,7 @@ We carefully selected each service to ensure the platform remains performant and
 
 ---
 
-<img width="2964" height="3164" alt="image" src="https://github.com/user-attachments/assets/2cb0ef40-3723-49f2-820d-31c8cce9cb26" />
+<img width="1500" height="1550" alt="image" src="https://github.com/user-attachments/assets/2cb0ef40-3723-49f2-820d-31c8cce9cb26" />
 
 
 
