@@ -52,3 +52,8 @@ The goal of this lab was to establish a secure "Internal-only" connection betwee
 ## Conclusion
 
 By completing this project, I demonstrated the ability to bridge the gap between two isolated subnets. This exercise reinforced the importance of "chained" security groups, where one security group acts as the authorized source for another, ensuring, that sensitive data remains protected even within the internal network.
+
+## Certification
+
+<img width="2043" height="1569" alt="image" src="https://github.com/user-attachments/assets/e189b8e6-e8a6-4814-9d95-7e154d7814c1" />
+
