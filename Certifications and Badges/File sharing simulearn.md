@@ -24,7 +24,12 @@ After designing the solution, I transitioned to a live AWS Management Console en
 3.  **Amazon EFS Deployment:** I successfully created a new Amazon Elastic File System and configured its mount targets within the same Virtual Private Cloud (VPC) as the EC2 instances.
 4.  **Verification & Mounting:** Finally, I successfully mounted the Amazon EFS file system onto each EC2 instance and verified that files created on one instance were immediately accessible and modifiable from the other instances, demonstrating a robust and truly shared storage solution.
 
-
 ## Final Result
 
 I successfully deployed a working, scalable, serverless file-sharing solution for the pet modeling agency, confirming that Amazon EFS provides the perfect balance of ease of use, concurrent access, and scalability for this real-world scenario.
+
+## Certification
+
+<img width="2057" height="1570" alt="image" src="https://github.com/user-attachments/assets/82660a7a-649c-48b9-8525-7dbfa6424fca" />
+
+
