@@ -20,14 +20,10 @@ I have successfully designed, implemented, and validated a security architecture
 Through this project, I have demonstrated the following competencies:
 
 * **Access Management:** Implementing secure access controls to protect sensitive financial infrastructure.
-* **Policy Analysis:** Evaluating and troubleshooting complex IAM policies to ensure correct permission boundaries.
 * **Security Best Practices:** Applying IAM best practices, such as using groups for permissions and avoiding the use of root accounts for daily tasks.
-* **Cloud Compliance:** Explaining how AWS compliance programs and the Shared Responsibility Model protect organizational data.
 
 ## AWS Services Used
 * **AWS Identity and Access Management (IAM):** To create users, groups, roles, and fine-grained permission policies.
-* **Amazon Elastic Compute Cloud (EC2):** To manage and secure compute resources used by the engineering team.
-* **Amazon Relational Database Service (RDS):** To implement data-layer security and restrict access to backend financial databases.
 
 ## Summary of Results
-I successfully transformed a business security requirement into a functional technical solution. By restricting engineer access to only the necessary API calls for EC2 and RDS, I reduced the risk of accidental or malicious configuration changes. This project confirms my ability to use professional AWS tools to build secure, scalable, and compliant cloud infrastructures.
+I successfully transformed a business security requirement into a functional technical solution. By restricting engineer access to only the necessary API calls for EC2 and RDS, I reduced the risk of accidental or malicious configuration changes.
