@@ -27,3 +27,7 @@ Through this project, I have demonstrated the following competencies:
 
 ## Summary of Results
 I successfully transformed a business security requirement into a functional technical solution. By restricting engineer access to only the necessary API calls for EC2 and RDS, I reduced the risk of accidental or malicious configuration changes.
+
+## Certification
+
+<img width="2085" height="1610" alt="image" src="https://github.com/user-attachments/assets/cd68253f-7d88-400b-93df-b8e22bbde4b6" />
