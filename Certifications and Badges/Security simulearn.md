@@ -12,7 +12,7 @@ I have successfully designed, implemented, and validated a security architecture
 * **Identity Architecture:** I analyzed the differences between IAM users, roles, and groups to determine the best structure for the support team. I created a hierarchical access model that simplifies management while maintaining high security.
 * **Environment Validation:** I deployed and tested the permissions in a live AWS Management Console, specifically managing access to Amazon EC2 instances and Amazon RDS databases. I have logged in as a support-engineer-1 user and I tried to terminate the EC2 Instance. That action failed, as this role did not have the permission to terminate the instance.
 
-<img width="1530" height="516" alt="image" src="https://github.com/user-attachments/assets/84df0046-6cfe-4d0b-a356-4d0732596cc7" />
+<img width="800" height="250" alt="image" src="https://github.com/user-attachments/assets/84df0046-6cfe-4d0b-a356-4d0732596cc7" />
 
 
 
