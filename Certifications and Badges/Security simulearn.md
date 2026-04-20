@@ -1,16 +1,18 @@
 # AWS Security Project: Restricted Access for Support Engineers
 
 ## Project Description
-In this project, I addressed a simulated business scenario for a stock exchange. The organization needed to enhance its security controls by ensuring that support engineers had access only to the specific actions required for their roles. I was responsible for designing and building a secure access management solution that prevents unauthorized changes while allowing engineers to perform their daily duties efficiently.
+In this project, I addressed a simulated business scenario for a stock exchange. The organization needed to enhance its security controls by ensuring that support engineers had access only to the specific actions required for their roles. 
+
+<img width="380" height="260" alt="image" src="https://github.com/user-attachments/assets/6135f6e4-75f6-45eb-b052-7bcd658c014e" />
+
 
 ## What I Have Accomplished
 I have successfully designed, implemented, and validated a security architecture within a live AWS environment. My work included the following:
 
 * **Identity Architecture:** I analyzed the differences between IAM users, roles, and groups to determine the best structure for the support team. I created a hierarchical access model that simplifies management while maintaining high security.
-* **Granular Policy Engineering:** I broke down the structure of IAM policies to understand how Version, Statement, Effect, Action, and Resource components interact. I wrote and applied JSON-based policies to enforce the Principle of Least Privilege.
-* **Shared Responsibility Implementation:** I evaluated the AWS Shared Responsibility Model to ensure that my configurations met compliance standards and that I was properly managing the security configurations "in" the cloud.
-* **Environment Validation:** I deployed and tested these permissions in a live AWS Management Console, specifically managing access to Amazon EC2 instances and Amazon RDS databases.
-* **Soft Skill Development:** I used generative AI simulation tools to consult with fictional customers, translating business requirements into technical security specifications.
+* **Environment Validation:** I deployed and tested the permissions in a live AWS Management Console, specifically managing access to Amazon EC2 instances and Amazon RDS databases.
+
+
 
 ## Technical Objectives and Skills
 Through this project, I have demonstrated the following competencies:
