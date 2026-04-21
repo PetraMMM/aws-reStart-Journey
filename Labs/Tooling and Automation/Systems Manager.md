@@ -18,6 +18,9 @@ I ensured that all managed instances were correctly configured and reporting to 
 ### Automation via Run Command
 I used the Run Command feature to perform bulk operations. Instead of logging into each server individually, I executed scripts across multiple EC2 instances at once, allowing for efficient software updates and configuration management.
 
+<img width="500" height="190" alt="image" src="https://github.com/user-attachments/assets/5a636e54-8bab-48e3-833c-214d8e6fada8" />
+
+
 ### Configuration Management
 I managed application settings and environment configurations remotely. This allowed me to maintain consistency across my fleet and ensure that all servers were aligned with the required operational state.
 
