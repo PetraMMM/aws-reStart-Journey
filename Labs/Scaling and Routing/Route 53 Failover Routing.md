@@ -17,6 +17,10 @@ I created a Route 53 health check to continuously monitor the HTTP endpoint of t
 ### 2. Failover Routing
 I configured DNS records in Amazon Route 53 using a failover routing policy:
 * **Primary Record:** Points to the IP address of "Café Instance 1" in Availability Zone 1. Under normal conditions, all user traffic is directed here.
+
+<img width="510" height="308" alt="image" src="https://github.com/user-attachments/assets/e97287a6-5758-457b-90db-e1f496a69144" />
+
+
 * **Secondary (Failover) Record:** Points to the IP address of "Café Instance 2" in Availability Zone 2. 
 * **The Failover Mechanism:** Route 53 actively evaluates the health check of the primary instance. If the primary instance fails, Route 53 automatically updates the DNS routing to send all incoming user requests to the secondary instance until the primary server recovers.
 
