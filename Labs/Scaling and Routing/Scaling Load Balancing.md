@@ -6,8 +6,8 @@ In this project, I designed and implemented a highly available, fault-tolerant, 
 This architecture ensures that the application remains highly available during traffic spikes and cost-optimized during downtimes, all without requiring manual intervention.
 
 
-<img width="420" height="300" alt="image" src="https://github.com/user-attachments/assets/db8d8017-35cb-47be-b18b-7f406bc8be92" />
-<img width="420" height="300" alt="image" src="https://github.com/user-attachments/assets/367d8150-b2fc-49ec-928e-33a92de28543" />
+<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/db8d8017-35cb-47be-b18b-7f406bc8be92" />
+<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/367d8150-b2fc-49ec-928e-33a92de28543" />
 
 
 ## What I Implemented
