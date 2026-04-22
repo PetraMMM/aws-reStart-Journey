@@ -15,7 +15,8 @@ To achieve a resilient and self-healing infrastructure, I successfully completed
 * **Secure Network Placement:** For enhanced security, I configured the Auto Scaling group to strictly provision new EC2 instances within **private subnets**, shielding them from direct internet access while still receiving traffic via the public-facing load balancer.
 * **CloudWatch Monitoring & Alarms:** I utilized **Amazon CloudWatch** to monitor the performance of the infrastructure. I set up alarms based on specific metrics (such as CPU utilization) to automatically trigger the Auto Scaling policies.
 
-<img width="520" height="175" alt="image" src="https://github.com/user-attachments/assets/6c644dcc-27d7-4eb7-bb02-578469a94bba" />
+<img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/506c0c67-634d-4b8d-ae29-b8a8fd0c2810" />
+
 
 
 ## Technologies & Services Used
