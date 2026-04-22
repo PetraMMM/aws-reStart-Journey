@@ -14,6 +14,9 @@ To achieve automated failover and monitoring, I successfully configured the foll
 ### 1. Route 53 Health Checks & Alerts
 I created a Route 53 health check to continuously monitor the HTTP endpoint of the primary EC2 instance. I integrated this health check with an alarm system so that if the primary instance becomes unresponsive or unhealthy, I immediately receive an email notification alerting me to the outage.
 
+<img width="513" height="190" alt="image" src="https://github.com/user-attachments/assets/c2f56872-cb11-4509-9545-a3b1dd7ecf96" />
+
+
 ### 2. Failover Routing
 I configured DNS records in Amazon Route 53 using a failover routing policy:
 * **Primary Record:** Points to the IP address of "Café Instance 1" in Availability Zone 1. Under normal conditions, all user traffic is directed here.
