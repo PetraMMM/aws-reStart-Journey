@@ -12,6 +12,10 @@ To achieve a resilient and self-healing infrastructure, I successfully completed
 * **Custom AMI Creation:** I created an Amazon Machine Image (AMI) from a pre-configured EC2 instance. This "golden image" served as the reliable baseline for all newly provisioned servers.
 * **Elastic Load Balancing (ELB):** I deployed a load balancer to automatically distribute incoming application traffic evenly across my fleet of EC2 instances, preventing any single instance from becoming a bottleneck.
 * **Auto Scaling Configuration:** I created a **Launch Template** linked to my custom AMI and established an **Auto Scaling group**. This allowed the infrastructure to automatically scale out (add instances) or scale in (remove instances) based on real-time conditions.
+
+<img width="517" height="109" alt="image" src="https://github.com/user-attachments/assets/743af2f3-2505-4294-974f-39a367cb6aa0" />
+
+
 * **Secure Network Placement:** For enhanced security, I configured the Auto Scaling group to strictly provision new EC2 instances within **private subnets**, shielding them from direct internet access while still receiving traffic via the public-facing load balancer.
 * **CloudWatch Monitoring & Alarms:** I utilized **Amazon CloudWatch** to monitor the performance of the infrastructure. I set up alarms based on specific metrics (such as CPU utilization) to automatically trigger the Auto Scaling policies.
 
@@ -26,4 +30,4 @@ To achieve a resilient and self-healing infrastructure, I successfully completed
 * **Monitoring:** Amazon CloudWatch (Metrics & Alarms)
 
 ## Conclusion
-Through this project, I gained hands-on experience in building cloud-native, elastic architectures. I can now confidently configure environments that automatically respond to changes in demand, ensuring stable application performance, fault tolerance, and optimized cloud usage costs.
+Through this project, I gained hands-on experience in building cloud-native, elastic architectures. I learned how to configure environments, that automatically respond to changes in demand, ensuring stable application performance, fault tolerance, and optimized cloud usage costs.
