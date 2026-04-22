@@ -3,6 +3,9 @@
 ## Project Overview
 In this project, I configured a highly available, disaster-resilient architecture for a web application using **Amazon Route 53 Failover Routing**. The goal of this project was to ensure that if my primary web server goes down, application traffic is automatically and seamlessly routed to a backup server in a different Availability Zone, minimizing downtime and ensuring a reliable user experience.
 
+<img width="390" height="310" alt="image" src="https://github.com/user-attachments/assets/ae6bdd54-4623-48c5-bbc2-7271aca2cde2" />
+
+
 ## Infrastructure Setup
 The foundational environment for this project consists of:
 * **Two Amazon EC2 Instances:** Both instances are fully configured with a LAMP (Linux, Apache, MySQL, PHP) stack and host a custom café website.
