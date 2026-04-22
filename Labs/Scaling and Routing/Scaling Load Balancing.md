@@ -14,14 +14,14 @@ This architecture ensures that the application remains highly available during t
 
 To achieve a resilient and self-healing infrastructure, I successfully completed the following tasks:
 
-* **Custom AMI Creation:** I created an Amazon Machine Image (AMI) from a pre-configured EC2 instance. This "golden image" served as the reliable baseline for all newly provisioned servers.
+* **Custom AMI Creation:** I created an Amazon Machine Image (AMI) from a pre-configured EC2 instance. This AMI image served as the reliable baseline for all newly provisioned servers.
 * **Elastic Load Balancing (ELB):** I deployed a load balancer to automatically distribute incoming application traffic evenly across my fleet of EC2 instances, preventing any single instance from becoming a bottleneck.
 * **Auto Scaling Configuration:** I created a **Launch Template** linked to my custom AMI and established an **Auto Scaling group**. This allowed the infrastructure to automatically scale out (add instances) or scale in (remove instances) based on real-time conditions.
 
 <img width="517" height="109" alt="image" src="https://github.com/user-attachments/assets/743af2f3-2505-4294-974f-39a367cb6aa0" />
 
 
-* **Secure Network Placement:** For enhanced security, I configured the Auto Scaling group to strictly provision new EC2 instances within **private subnets**, shielding them from direct internet access while still receiving traffic via the public-facing load balancer.
+* **Secure Network Placement:** For enhanced security, I configured the Auto Scaling group to strictly provision new EC2 instances within **private subnets**, shielding them from direct internet access while still receiving traffic via the load balancer.
 * **CloudWatch Monitoring & Alarms:** I utilized **Amazon CloudWatch** to monitor the performance of the infrastructure. I set up alarms based on specific metrics (such as CPU utilization) to automatically trigger the Auto Scaling policies.
 
 <img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/506c0c67-634d-4b8d-ae29-b8a8fd0c2810" />
