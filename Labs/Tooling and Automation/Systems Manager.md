@@ -1,36 +1,44 @@
+# AWS Systems Manager: Centralized Operations & Automation
 
-# AWS Systems Manager: Centralized Operations and Automation
-
-In this project, I utilized AWS Systems Manager to centralize operational data and automate tasks across my AWS resources. I managed Amazon EC2 instances at scale, demonstrating how to streamline configurations and enhance security.
+In this project, I utilized **AWS Systems Manager** to centralize operational data and automate management tasks across Amazon EC2 instances. My work focused on managing resources at scale, ensuring consistent configurations, and maintaining a high security posture by eliminating the need for traditional SSH access.
 
 ## Project Objectives
-After completing this project, I am able to use Systems Manager to:
-* Verify configurations and permissions across resources.
-* Run tasks on multiple servers simultaneously.
-* Update application settings or configurations remotely.
-* Access the command line on an instance securely without SSH keys.
+I successfully completed the following objectives during this implementation:
+* **Verify configurations and permissions:** Ensured instances were correctly configured with the necessary IAM roles to communicate with the Systems Manager service.
+* **Run tasks on multiple servers:** Used **Run Command** to execute scripts and administrative tasks across a fleet of instances simultaneously.
+* **Update application settings:** Streamlined the process of updating configurations across my environment without manual intervention.
+* **Access the command line:** Utilized **Session Manager** to gain secure, browser-based shell access to instances without opening port 22.
 
-## Key Capabilities Implemented
+---
 
-### Fleet Management and Verification
-I ensured that all managed instances were correctly configured and reporting to the Systems Manager dashboard. This involved verifying that instances possessed the necessary IAM permissions and that the SSM Agent was functioning correctly.
+## Capabilities Implemented
 
-### Automation via Run Command
-I used the Run Command feature to perform bulk operations. Instead of logging into each server individually, I executed scripts across multiple EC2 instances at once, allowing for efficient software updates and configuration management.
+### 1. Verification & Compliance
+I verified that the SSM Agent was active and that the instances possessed the appropriate `AmazonSSMManagedInstanceCore` permissions. This foundation allowed for seamless communication between the AWS console and the remote resources.
 
-<img width="500" height="190" alt="image" src="https://github.com/user-attachments/assets/5a636e54-8bab-48e3-833c-214d8e6fada8" />
+### 2. Automation at Scale
+Instead of logging into servers individually, I used Systems Manager to:
+* Execute shell scripts across multiple instances.
+* Install and update software packages.
+* Verify the status of services across the entire fleet.
+
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/a0025429-f3c1-46fa-8b76-c7d8a36cfef2" />
 
 
-### Configuration Management
-I managed application settings and environment configurations remotely. This allowed me to maintain consistency across my fleet and ensure that all servers were aligned with the required operational state.
+### 3. Secure Session Management
+I replaced traditional SSH methods with **Session Manager**. This allowed me to:
+* Access the command line directly from the AWS Console.
+* Improve security by closing inbound SSH ports on Security Groups.
+* Maintain an audit log of all commands executed during the session via CloudWatch or S3.
 
-### Secure Access with Session Manager
-I utilized Session Manager to access the command line of my instances. This improved security by removing the need to open inbound SSH ports or manage SSH keys, while providing a full audit trail of session activity.
+<img width="455" height="360" alt="image" src="https://github.com/user-attachments/assets/1028e705-b719-465f-8dca-0c408514d679" />
+
+
+---
 
 ## Conclusion
-By implementing AWS Systems Manager, I have demonstrated how to automate routine maintenance and management tasks. This approach reduces the risk of manual errors and provides a centralized, secure way to manage infrastructure at scale.
+This project demonstrated how to effectively use AWS Systems Manager to simplify cloud operations. By automating repetitive tasks and centralizing resource management, I improved operational efficiency and strengthened infrastructure security.
 
-## Tools Used
-* AWS Systems Manager (Run Command, Session Manager, Fleet Manager)
+**Key Tools Used:** * AWS Systems Manager (Run Command, Session Manager)
 * Amazon EC2
-* AWS Identity and Access Management (IAM)
+* IAM (Identity and Access Management)
