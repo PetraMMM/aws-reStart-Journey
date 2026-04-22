@@ -10,6 +10,9 @@ In this project, I installed and configured the AWS Command Line Interface (AWS 
 * **Secure Access:** Established an SSH connection to my Red Hat Linux instance.
 * **Installation:** Downloaded and installed the AWS CLI v2 manually.
 * **Configuration:** Secured access to my AWS account by configuring my Access Key ID and Secret Access Key using `aws configure`.
+
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/9838a6bc-67d4-44fc-8b0f-44bd3e1ed706" />
+
 * **Verification:** Successfully executed AWS CLI commands to interact with AWS Identity and Access Management (IAM) and validate my permissions.
 
 ## Technologies Used
