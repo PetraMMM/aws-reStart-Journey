@@ -3,11 +3,11 @@
 ## Project Overview
 In this project, I designed and implemented a highly available, fault-tolerant, and dynamically scalable infrastructure on AWS. By leveraging **Elastic Load Balancing (ELB)** and **Amazon EC2 Auto Scaling**, I built an environment capable of automatically adjusting its compute capacity based on traffic demands while efficiently distributing incoming traffic across multiple instances. 
 
-This architecture ensures that the application remains highly available during traffic spikes and cost-optimized during lulls, all without requiring manual intervention.
+This architecture ensures that the application remains highly available during traffic spikes and cost-optimized during downtimes, all without requiring manual intervention.
 
 
-<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/db8d8017-35cb-47be-b18b-7f406bc8be92" />
-<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/367d8150-b2fc-49ec-928e-33a92de28543" />
+<img width="420" height="300" alt="image" src="https://github.com/user-attachments/assets/db8d8017-35cb-47be-b18b-7f406bc8be92" />
+<img width="420" height="300" alt="image" src="https://github.com/user-attachments/assets/367d8150-b2fc-49ec-928e-33a92de28543" />
 
 
 ## What I Implemented
