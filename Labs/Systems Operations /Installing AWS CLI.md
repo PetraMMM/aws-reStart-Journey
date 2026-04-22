@@ -13,6 +13,7 @@ In this project, I installed and configured the AWS Command Line Interface (AWS 
 
 <img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/9838a6bc-67d4-44fc-8b0f-44bd3e1ed706" />
 
+
 * **Verification:** Successfully executed AWS CLI commands to interact with AWS Identity and Access Management (IAM) and validate my permissions.
 
 ## Technologies Used
