@@ -28,7 +28,7 @@ To verify that the IAM policies were working exactly as intended, I conducted ha
 * **User-2 (Compute Read-Only Focus):** I confirmed this user could view EC2 instances but lacked the administrative permissions to alter them (e.g., they could not stop an instance). Additionally, they were completely denied access to view S3 buckets.
 * **User-3 (Compute Admin Focus):** I verified that this user had elevated compute permissions, allowing them to successfully view EC2 instances and execute administrative commands, such as stopping a running instance.
 
-<img width="500" height="165" alt="image" src="https://github.com/user-attachments/assets/5028e3c2-956e-42af-b2bb-698765b88b0d" />
+<img width="530" height="165" alt="image" src="https://github.com/user-attachments/assets/5028e3c2-956e-42af-b2bb-698765b88b0d" />
 
 
 ## Technologies & Services Used
