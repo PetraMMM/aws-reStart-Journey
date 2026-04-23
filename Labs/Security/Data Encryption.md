@@ -8,7 +8,11 @@ I configured a file server hosted on an Amazon Elastic Compute Cloud (Amazon EC2
 ## Key Implementations & Achievements
 To secure data protection, I successfully completed the following tasks:
 
-* **Symmetric Key Generation:** I generated and managed a secure cryptographic encryption key using **AWS KMS** to serve as the foundation .
+* **Symmetric Key Generation:** I generated and managed a secure cryptographic encryption key using **AWS KMS** to serve as the foundation.
+
+<img width="500" height="206" alt="image" src="https://github.com/user-attachments/assets/a00f6916-fe5f-4921-9c39-ea34bb080eaa" />
+
+
 * **Tool Provisioning:** I installed and configured the **AWS Encryption CLI** on my EC2 instance, enabling streamlined encryption and decryption directly from the command line.
 * **Plaintext Encryption:** I created standard, unencrypted text files and successfully transformed them into unreadable ciphertext using my centralized KMS key.
 * **Ciphertext Decryption:** I reversed the process, successfully decrypting the secure ciphertext back into its original, readable plaintext format using the proper key authentication.
