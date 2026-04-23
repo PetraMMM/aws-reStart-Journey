@@ -19,4 +19,4 @@ To achieve a secure and compliant environment, I successfully completed the foll
 * **Security Concepts:** Systems Hardening, Patch Management, Compliance Auditing, Fleet Management
 
 ## Conclusion
-This project provided me with practical, hands-on experience in automated cloud infrastructure management. I am now confident in my ability to establish secure patching baselines, orchestrate updates across a diverse fleet of servers, and guarantee that organizational compliance standards are strictly met.
+This project provided me with practical experience in automated cloud infrastructure management. I learned how to establish secure patching baselines, orchestrate updates across a diverse fleet of servers, and guarantee that organizational compliance standards are strictly met.
