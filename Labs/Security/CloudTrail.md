@@ -25,10 +25,13 @@ Once the trail was active and logging the hacker's movements, I downloaded the C
 To perform a more robust and structured investigation, I integrated CloudTrail with **Amazon Athena**. I imported the log data into Athena and executed SQL queries to filter the massive dataset. This allowed me to rapidly isolate the specific IAM user and IP address responsible for the unauthorized security group changes.
 
 ### 4. Incident Response & Remediation
-After identifying the compromised user account (the "culprit"), I immediately took action to contain the threat:
+After identifying the compromised user account, I immediately took action to contain the threat:
 * I revoked the malicious user's access via **AWS IAM**.
 * I reverted the unauthorized Security Group changes to lock down access to the EC2 Linux instance.
 * I implemented stricter IAM policies and security best practices to harden the AWS account and prevent future breaches.
+
+<img width="500" height="160" alt="image" src="https://github.com/user-attachments/assets/13e93b42-bcaa-4dca-8a49-e56346fd7699" />
+
 
 ## Technologies Used
 * **Security & Auditing:** AWS CloudTrail, AWS Identity and Access Management (IAM)
