@@ -13,6 +13,9 @@ To achieve a secure and compliant environment, I successfully completed the foll
 * **Targeted Rollouts via Patch Groups:** I utilized AWS tags to organize my infrastructure into logical **Patch Groups**. This allowed me to safely target specific groups of Windows instances to receive the custom patch baseline without disrupting other environments.
 * **Compliance Verification:** After executing the patching operations, I used Systems Manager to audit the fleet, successfully verifying patch compliance and confirming that no instances were missing critical security updates.
 
+<img width="500" height="240" alt="image" src="https://github.com/user-attachments/assets/07b58e53-6808-4cef-83b7-2652d273ba75" />
+
+
 ## Technologies & Services Used
 * **Operations & Automation:** AWS Systems Manager (Patch Manager, Run Command)
 * **Compute:** Amazon EC2 (Windows Server, Linux)
