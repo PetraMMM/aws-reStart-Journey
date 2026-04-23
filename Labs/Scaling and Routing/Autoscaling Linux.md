@@ -17,6 +17,10 @@ Throughout this project, I successfully completed the following objectives:
 
 
 * **Launch Templates & Configurations:** I designed an Amazon EC2 launch template and an Auto Scaling launch configuration to standardize the rapid deployment of new instances.
+
+<img width="500" height="340" alt="image" src="https://github.com/user-attachments/assets/646f2fde-8e56-438c-90dc-8a822d6f395f" />
+
+
 * **Dynamic Auto Scaling:** I configured an Auto Scaling group equipped with specific scaling policies. This enables the infrastructure to automatically **scale out** (provision new servers) during high traffic spikes and **scale in** (terminate unneeded servers) during low demand, optimizing both performance and cost.
 * **Load Distribution:** I deployed an Elastic Load Balancer to evenly distribute incoming user traffic across the auto-scaled EC2 instances spanning multiple Availability Zones, ensuring fault tolerance and high availability.
 
