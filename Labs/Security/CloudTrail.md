@@ -15,6 +15,9 @@ The company's leadership team discovered that their website had been hacked. The
 ### 1. Enabling Continuous Auditing (AWS CloudTrail)
 I started by configuring an **AWS CloudTrail trail** to monitor and record all API activity and administrative actions taken within the AWS account. This provided the foundational audit logs needed to reconstruct the events leading up to the breach.
 
+<img width="500" height="370" alt="image" src="https://github.com/user-attachments/assets/b02abada-5e3d-4a6c-b0f5-7a9d4439f4d6" />
+
+
 ### 2. Initial Log Analysis (AWS CLI & Linux)
 Once the trail was active and logging the hacker's movements, I downloaded the CloudTrail logs. I utilized the **AWS CLI** and Linux command-line utilities (such as `grep`) to parse through the raw JSON log files. This initial triage helped me confirm that an unauthorized security group modification was the entry point for the attack.
 
