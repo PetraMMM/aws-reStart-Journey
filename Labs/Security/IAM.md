@@ -1,7 +1,7 @@
 # AWS Identity and Access Management (IAM) Implementation
 
 ## Project Overview
-In this project, I implemented and tested role-based access control (RBAC) using **AWS Identity and Access Management (IAM)**. In enterprise environments, securing access to cloud resources is critical to prevent unauthorized exploitation. My objective was to enforce the principle of least privilege by configuring users, user groups, and specific IAM policies to ensure individuals only had access to the AWS services they strictly needed.
+In this project, I implemented and tested role-based access control using **AWS Identity and Access Management (IAM)**. Securing access to cloud resources is critical to prevent unauthorized exploitation. My objective was to enforce the principle of least privilege by configuring users, user groups, and specific IAM policies to ensure individuals only had access to the AWS services they strictly needed.
 
 <img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/48126150-1adb-4241-8373-a25e9aa8a042" />
 
@@ -9,6 +9,10 @@ In this project, I implemented and tested role-based access control (RBAC) using
 ## Key Implementations
 To establish a secure access framework, I successfully completed the following tasks:
 * **Enforced Password Policies:** I created and applied a custom IAM password policy to ensure strong authentication standards across the AWS account.
+
+<img width="500" height="340" alt="image" src="https://github.com/user-attachments/assets/6b7b0cf8-3117-4bee-99a3-a8eec403a6c8" />
+
+
 * **Managed Users & Groups:** I explored, categorized, and assigned IAM users into specific user groups based on their required operational capabilities.
 * **Inspected & Applied IAM Policies:** I analyzed the JSON-based IAM policies attached to these groups to understand exactly what permissions were being granted or explicitly denied.
 * **Custom Access Routing:** I located and utilized the dedicated IAM sign-in URL to securely route users into the environment.
