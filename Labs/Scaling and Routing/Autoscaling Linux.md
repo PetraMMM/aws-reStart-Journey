@@ -12,6 +12,10 @@ Throughout this project, I successfully completed the following objectives:
 
 * **CLI-Driven Provisioning:** I created the initial Amazon EC2 instance entirely via the AWS CLI, demonstrating programmatic control over AWS resources.
 * **Custom AMI Creation:** I generated a custom Amazon Machine Image (AMI) from my configured EC2 web server using the CLI. This served as the reliable, reusable baseline for my scaling group.
+
+<img width="500" height="68" alt="image" src="https://github.com/user-attachments/assets/4341b315-a83c-44ab-a1f2-542cba2fcd9b" />
+
+
 * **Launch Templates & Configurations:** I designed an Amazon EC2 launch template and an Auto Scaling launch configuration to standardize the rapid deployment of new instances.
 * **Dynamic Auto Scaling:** I configured an Auto Scaling group equipped with specific scaling policies. This enables the infrastructure to automatically **scale out** (provision new servers) during high traffic spikes and **scale in** (terminate unneeded servers) during low demand, optimizing both performance and cost.
 * **Load Distribution:** I deployed an Elastic Load Balancer to evenly distribute incoming user traffic across the auto-scaled EC2 instances spanning multiple Availability Zones, ensuring fault tolerance and high availability.
