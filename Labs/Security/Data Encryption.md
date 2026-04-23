@@ -15,7 +15,7 @@ To secure data protection, I successfully completed the following tasks:
 
 * **Tool Provisioning:** I installed and configured the **AWS Encryption CLI** on my EC2 instance, enabling streamlined encryption and decryption directly from the command line.
 * **Plaintext Encryption:** I created standard, unencrypted text files and successfully transformed them into unreadable ciphertext using my centralized KMS key.
-* **Ciphertext Decryption:** I reversed the process, successfully decrypting the secure ciphertext back into its original, readable plaintext format using the proper key authentication.
+* **Decryption:** I reversed the process, successfully decrypting the secure ciphertext back into its original, readable plaintext format using the proper key authentication.
 * **Data Verification:** I validated the integrity and confidentiality of the data at each step, verifying that the encrypted files were completely inaccessible without the proper decryption protocols.
 
 <img width="820" height="385" alt="image" src="https://github.com/user-attachments/assets/1beda894-6fdd-4564-a79c-33853d56d2a0" />
@@ -28,4 +28,4 @@ To secure data protection, I successfully completed the following tasks:
 * **Concepts:** Data Confidentiality, Cryptography, Plaintext vs. Ciphertext Transformation
 
 ## Conclusion
-This project provided me with practical, hands-on experience in cloud data security. I learned to provision cryptographic keys, utilize AWS encryption tooling, and securely protect sensitive data at rest.
+This project provided me with practical experience in cloud data security. I learned to provision cryptographic keys, utilize AWS encryption tooling, and securely protect sensitive data at rest.
