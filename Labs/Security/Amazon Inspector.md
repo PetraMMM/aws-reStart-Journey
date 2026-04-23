@@ -16,10 +16,9 @@ Throughout this project, I successfully completed the following tasks:
 * **Remediated Security Flaws:** I actively applied patches, updated dependencies, and modified configurations to remediate the identified vulnerabilities within the AWS Lambda functions, bringing the environment back into a secure and compliant state.
 
 ## Technologies & AWS Services Used
-* **Security & Compliance:** Amazon Inspector
+* **Security:** Amazon Inspector
 * **Compute:** AWS Lambda (Serverless), Amazon EC2
 * **Containers:** Amazon Elastic Container Registry (ECR)
-* **Concepts:** DevSecOps, Vulnerability Management, Continuous Scanning, Remediation
 
 ## Conclusion
-This project provided me with practical experience in integrating security directly into the cloud development process. I am now confident in my ability to deploy automated vulnerability management tools, interpret complex security findings, and swiftly remediate risks to maintain a secure and resilient AWS architecture.
+This project provided me with practical experience in integrating security directly into the cloud development process. I learned how to deploy automated vulnerability management tools, interpret complex security findings, and swiftly remediate risks.
