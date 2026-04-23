@@ -18,6 +18,9 @@ To secure data protection, I successfully completed the following tasks:
 * **Ciphertext Decryption:** I reversed the process, successfully decrypting the secure ciphertext back into its original, readable plaintext format using the proper key authentication.
 * **Data Verification:** I validated the integrity and confidentiality of the data at each step, verifying that the encrypted files were completely inaccessible without the proper decryption protocols.
 
+<img width="820" height="385" alt="image" src="https://github.com/user-attachments/assets/1beda894-6fdd-4564-a79c-33853d56d2a0" />
+
+
 ## Technologies & Services Used
 * **Compute & Storage:** Amazon EC2 (Linux File Server)
 * **Security & Cryptography:** AWS Key Management Service (KMS)
