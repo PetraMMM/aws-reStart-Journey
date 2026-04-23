@@ -21,8 +21,14 @@ I started by creating an SNS topic dedicated to system alerts. I subscribed my e
 ### 2. Performance Monitoring (Amazon CloudWatch)
 I created a CloudWatch Alarm tied specifically to the EC2 instance's `CPUUtilization` metric. I configured the alarm to trigger a state change (and publish a message to my SNS topic) if the CPU usage exceeded a designated safe threshold.
 
+<img width="500" height="270" alt="image" src="https://github.com/user-attachments/assets/ef19a06e-4a92-48e2-96ed-714f187c5047" />
+
+
 ### 3. Incident Simulation & Validation
 To test the resilience and responsiveness of my alerting system, I accessed the EC2 Linux instance and ran a stress-testing command. This rapidly consumed the server's compute resources, pushing CPU utilization to 100%. Within minutes, CloudWatch detected the anomaly, shifted the alarm to the `ALARM` state, and successfully triggered the SNS email notification to my inbox.
+
+<img width="500" height="280" alt="image" src="https://github.com/user-attachments/assets/95af0353-2b30-4425-845f-5005b1f26ea4" />
+
 
 ### 4. Visualizing Data
 Finally, I built a custom **CloudWatch Dashboard**. This provided a single pane of glass to view the CPU utilization graphs, making it easier to track performance trends and quickly identify when the baseline was exceeded during the stress test.
