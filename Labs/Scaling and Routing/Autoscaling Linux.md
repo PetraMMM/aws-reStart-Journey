@@ -1,7 +1,7 @@
 # AWS Auto Scaling and Load Balancing Architecture (Linux)
 
 ## Project Overview
-In this project, I engineered a highly available, dynamically scaling web server infrastructure on AWS. Using the **AWS Command Line Interface (AWS CLI)**, I provisioned the foundational compute resources and created a custom Amazon Machine Image (AMI). I then utilized **Amazon EC2 Auto Scaling** and an **Elastic Load Balancer (ELB)** to build an architecture capable of automatically adjusting to variable traffic loads across multiple Availability Zones.
+In this project, I designed a highly available, dynamically scaling web server infrastructure on AWS. Using the **AWS Command Line Interface (AWS CLI)**, I provisioned the foundational compute resources and created a custom Amazon Machine Image (AMI). Then I utilized **Amazon EC2 Auto Scaling** and an **Elastic Load Balancer (ELB)** to build an architecture capable of automatically adjusting to variable traffic loads across multiple Availability Zones.
 
 <img width="500" height="315" alt="image" src="https://github.com/user-attachments/assets/ef4ade6a-8044-46d2-bed4-9b1bf44eec6a" />
 <img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/6ee21956-59b1-425a-b92f-f48848a06695" />
@@ -27,9 +27,8 @@ Throughout this project, I successfully completed the following objectives:
 ## Technologies Used
 * **AWS Command Line Interface (CLI)**
 * **Amazon EC2** (Linux Web Servers)
-* **Amazon Machine Images (AMI)**
 * **Amazon EC2 Auto Scaling** (Groups, Launch Templates, Scaling Policies)
 * **Elastic Load Balancing (ELB)**
 
 ## Conclusion
-This project solidified my practical experience with AWS command-line management and automated scaling mechanisms. I am now fully capable of designing robust environments that autonomously respond to variable loads, ensuring consistent application uptime and infrastructure cost efficiency.
+In this project I practiced working with AWS command-line management and automated scaling mechanisms. 
