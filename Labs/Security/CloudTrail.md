@@ -40,4 +40,4 @@ After identifying the compromised user account, I immediately took action to con
 * **Tools:** AWS CLI, Linux Command Line (`grep`)
 
 ## Conclusion
-This project gave me invaluable hands-on experience in cloud incident response. I successfully demonstrated how to track API calls, analyze audit logs using both command-line tools and SQL-based querying, and effectively remediate security vulnerabilities within an AWS environment.
+This project gave me hands-on experience in cloud incident response. I successfully demonstrated how to track API calls, analyze audit logs using both command-line tools and SQL-based querying, and effectively remediate security vulnerabilities within an AWS environment.
