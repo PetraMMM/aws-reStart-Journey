@@ -1,9 +1,9 @@
 # AWS EC2 Monitoring and Alerting System
 
 ## Project Overview
-In this project, I implemented a robust monitoring and alerting system for an Amazon EC2 instance to ensure system performance and security baselines are continuously met. Logging and monitoring are critical for identifying performance bottlenecks and detecting security red flags, such as unauthorized access or malware infections.
+In this project, I implemented a monitoring and alerting system for an Amazon EC2 instance to ensure system performance and security. Logging and monitoring are critical for identifying performance bottlenecks and detecting security red flags, such as unauthorized access or malware infections.
 
-To demonstrate this, I configured an automated alerting pipeline using **Amazon CloudWatch** and **Amazon Simple Notification Service (SNS)**. I then simulated a security incident (a malicious actor spiking the CPU via malware) by running a stress test on the server, which successfully triggered the alarm and sent an automated incident response email. 
+To demonstrate this, I configured an automated alerting pipeline using **Amazon CloudWatch** and **Amazon Simple Notification Service (SNS)**. I then simulated a security incident by running a stress test on the server, which successfully triggered the alarm and sent an automated incident response email. 
 
 ## Objectives Achieved
 During this project, I successfully completed the following tasks:
@@ -29,9 +29,9 @@ Finally, I built a custom **CloudWatch Dashboard**. This provided a single pane 
 
 ## Technologies & Services Used
 * **Compute:** Amazon EC2 (Linux)
-* **Monitoring & Observability:** Amazon CloudWatch (Metrics, Alarms, Dashboards)
+* **Monitoring:** Amazon CloudWatch (Metrics, Alarms, Dashboards)
 * **Messaging & Alerting:** Amazon SNS (Simple Notification Service)
 * **System Administration:** Linux command-line utilities (Stress testing)
 
 ## Conclusion
-This project gave me practical, hands-on experience in proactive cloud security and monitoring. I am now confident in my ability to build automated alerting pipelines that help detect anomalies, maintain system health, and enable rapid incident response in an enterprise AWS environment.
+This project gave me experience in proactive cloud security and monitoring. 
