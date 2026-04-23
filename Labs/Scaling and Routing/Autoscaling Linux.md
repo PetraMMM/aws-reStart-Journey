@@ -3,6 +3,9 @@
 ## Project Overview
 In this project, I engineered a highly available, dynamically scaling web server infrastructure on AWS. Using the **AWS Command Line Interface (AWS CLI)**, I provisioned the foundational compute resources and created a custom Amazon Machine Image (AMI). I then utilized **Amazon EC2 Auto Scaling** and an **Elastic Load Balancer (ELB)** to build an architecture capable of automatically adjusting to variable traffic loads across multiple Availability Zones.
 
+<img width="500" height="315" alt="image" src="https://github.com/user-attachments/assets/ef4ade6a-8044-46d2-bed4-9b1bf44eec6a" />
+
+
 ## Key Achievements & Implementation Details
 Throughout this project, I successfully completed the following objectives:
 
