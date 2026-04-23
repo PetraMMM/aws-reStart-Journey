@@ -28,7 +28,7 @@ To verify that the IAM policies were working exactly as intended, I conducted ha
 * **Security & Identity:** AWS Identity and Access Management (IAM)
 * **Compute:** Amazon EC2
 * **Storage:** Amazon S3
-* **Concepts:** Principle of Least Privilege, Role-Based Access Control (RBAC), Password Policies
+* **Concepts:** Principle of Least Privilege, Role-Based Access Control, Password Policies
 
 ## Conclusion
-This project solidified my practical understanding of cloud security fundamentals. By aggressively testing the effects of different policies on service access, I demonstrated how to effectively secure an AWS environment, segment user permissions, and prevent unauthorized resource exploitation.
+Through this project I enhanced my understanding of cloud security fundamentals. By testing the effects of different policies on service access, I demonstrated how to effectively secure an AWS environment, and segment user permissions.
