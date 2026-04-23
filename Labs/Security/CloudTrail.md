@@ -8,7 +8,7 @@ In this project, I acted as a Cloud Security Engineer tasked with investigating 
 
 
 ## The Scenario
-The company's leadership team discovered that their website had been hacked. They needed a way to track infrastructure changes and determine exactly who made them. I stepped in to trace the unauthorized modifications—specifically, changes made to the EC2 security groups—and remediate the vulnerabilities.
+The company's leadership team discovered that their website had been hacked. They needed a way to track infrastructure changes and determine exactly who made them. I stepped in to trace the unauthorized modifications, specifically changes made to the EC2 security groups.
 
 ## My Approach & Technical Implementation
 
