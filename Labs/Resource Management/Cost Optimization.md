@@ -5,6 +5,9 @@ In this project my task was to optimize the cloud computing resources for a live
 
 Following a successful migration of the application's database to Amazon RDS, the primary web server was left over-provisioned. I identified key opportunities to right-size the environment, including downsizing compute power to align with the application's new architecture.
 
+<img width="508" height="240" alt="image" src="https://github.com/user-attachments/assets/c51cb1ee-53a6-4740-aab0-a033ea6ff2b1" />
+
+
 ## Objectives Achieved
 Through this activity, I successfully demonstrated my ability to:
 * **Optimize an Amazon EC2 instance** to reduce ongoing operational storage and compute costs.
