@@ -23,6 +23,7 @@ Because the database was successfully migrated to a managed Amazon RDS instance 
 ### 2. Compute Optimization (Downsizing)
 With the heavy database processes no longer consuming CPU and memory on the web server, the original instance size was overpowered for simply serving web traffic. To maximize cost-efficiency, I downsized the instance type to a `t3.micro`. This adjustment cut hourly compute costs while maintaining the performance necessary for the web application to run smoothly.
 
+<img width="517" height="419" alt="image" src="https://github.com/user-attachments/assets/00a41bf7-fdaa-47f5-8609-55fdc981de12" />
 
 
 ## Conclusion
