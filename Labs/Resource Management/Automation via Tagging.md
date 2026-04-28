@@ -25,6 +25,10 @@ Through this project, I successfully demonstrated the ability to:
 * **Apply and modify tags** on existing AWS resources programmatically.
 * **Query and filter resources** based on specific tag values using advanced CLI parameters.
 * **Automate lifecycle actions** (such as stopping and starting instances) to simulate cost-saving measures for non-production environments.
+
+<img width="515" height="140" alt="image" src="https://github.com/user-attachments/assets/56ca3094-b2f2-454e-a1e7-f22b69c17d6a" />
+
+
 * **Enforce tagging compliance** by identifying and terminating resources that fail to meet corporate tagging standards.
 
 ---
