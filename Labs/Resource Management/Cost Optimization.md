@@ -1,9 +1,9 @@
 # Cloud Cost Optimization: Right-Sizing AWS Resources
 
 ## Overview
-In this hands-on project, I took on the responsibility of optimizing the cloud computing resources for a live web application (the Café app) to significantly reduce AWS service costs. 
+In this hands-on project ma task was to optimize the cloud computing resources for a live web application (the Café app) to reduce AWS service costs. 
 
-Following a successful migration of the application's database to Amazon RDS, the primary web server was left over-provisioned. I identified key opportunities to right-size the environment, stripping away unnecessary storage and downsizing compute power to align with the application's new, leaner architecture.
+Following a successful migration of the application's database to Amazon RDS, the primary web server was left over-provisioned. I identified key opportunities to right-size the environment, including downsizing compute power to align with the application's new architecture.
 
 ## Objectives Achieved
 Through this activity, I successfully demonstrated my ability to:
