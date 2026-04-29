@@ -13,6 +13,10 @@ During this project, I successfully demonstrated the ability to:
 
 
 * **Update and Configure Resources:** I expanded my infrastructure by editing the active CloudFormation template to include new resources. Specifically, I configured and deployed an **Amazon S3 bucket** and an **Amazon EC2 instance**.
+
+<img width="525" height="370" alt="image" src="https://github.com/user-attachments/assets/f30197e8-ab29-49a1-a01c-9fb9c5c8d493" />
+
+
 * **Manage the Infrastructure Lifecycle:** I learned how to safely tear down environments by terminating the CloudFormation stack, which automatically and cleanly deletes all associated resources to prevent orphaned infrastructure and unexpected costs.
 
 ## Technologies Used
