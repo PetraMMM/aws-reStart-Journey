@@ -1,12 +1,12 @@
 # Troubleshooting & Managing AWS CloudFormation Deployments
 
 ## Overview
-In this project, I developed practical skills by building and troubleshooting AWS CloudFormation deployments. 
+In this project I practiced building and troubleshooting AWS CloudFormation deployments. 
 
-Because automated deployments rarely go perfectly on the first try in real-world scenarios, this project heavily focused on diagnosing, analyzing, and resolving common deployment errors, infrastructure drift, and deletion failures.
+Because automated deployments rarely go perfectly on the first try in real-world scenarios, this project focused on diagnosing, analyzing, and resolving common deployment errors, infrastructure drift, and deletion failures.
 
 ## Objectives Achieved
-Throughout this hands-on project, I successfully demonstrated my ability to:
+In this project I learned to:
 * **Parse JSON Data:** Use JMESPath to query and extract specific values from complex JSON-formatted API responses.
 * **Troubleshoot Deployments:** Diagnose failed AWS CloudFormation stack creations using the AWS CLI.
 * **Perform Log Analysis:** SSH into a Linux EC2 instance and analyze system log files to determine the exact root cause of a stack creation failure.
