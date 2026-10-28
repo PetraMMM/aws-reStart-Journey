@@ -114,7 +114,7 @@ I am a Cloud Associate in training through the **AWS re/Start** program. This 50
 ## Certifications & Badges
 *  **AWS Certified Cloud Practitioner (CLF-C02)**
 *  **AWS re/Start Graduate Digital Badge**
-*  **LPI Linux Essentials** (Optional - check if your cohort includes this)
+
 
 ---
 
